@@ -1,4 +1,13 @@
+h1{
+    color: purple;
+}
+
 p{
     color: red;
     background-color: black;
+}
+
+.special_paragraph{
+    color: blueviolet;
+    background-color: burlywood;
 }
