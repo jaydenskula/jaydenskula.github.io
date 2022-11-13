@@ -1,13 +1,18 @@
-h1{
-    color: purple;
-}
+body {
+    background-color: rgb(160, 201, 203);
+    max-width: 60rem;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 
-p{
-    color: red;
-    background-color: black;
-}
-
-.special_paragraph{
-    color: blueviolet;
-    background-color: burlywood;
-}
+  article {
+    position: relative;
+  }
+  figure.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
