@@ -1,11 +1,15 @@
 body {
-    background-color: rgb(160, 201, 203);
-    margin-left: 25rem;
-    margin-right: 25rem;
+    background-color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 section{
+    display: flex;
     position: relative;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
  
 h1 {
@@ -19,14 +23,24 @@ article {
     position: relative;
     text-align: center;
     font-family: Georgia;
+    width: 30rem;
     margin-bottom: 7rem;
 }
 
+article.filler
+{
+    background-color: turquoise;
+    width: 60rem;
+    margin-bottom: 5rem;
+}
+
 figure {
-    background-color: rgb(232, 227, 248);
+    color: black;
     text-align: center;
     font-family: Georgia;
     position: sticky;
+    width: 30rem;
+    margin-bottom: 7rem;
     top: 0;
 }
 
