@@ -1,0 +1,58 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    max-width: 60rem;
+  }
+  
+  body {
+    min-height: 1280px;
+    color: #3b3b3b;
+    font-size: 24px;
+  }
+
+  h2{
+    font-family: Georogia;
+    text-align: center;
+  }
+  
+  p{
+    font-family: Georgia;
+  }
+  
+  #intro {
+    max-width: 40rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .intro__hed {
+    font-family: Georgia;
+    font-size: 2em;
+    margin: 2rem auto 0.5rem auto;
+  }
+  
+  .intro__dek {
+    font-family: Georgia;
+    color: #8a8a8a;
+  }
+  
+  #intro {
+    margin-bottom: 320px;
+  }
+  
+  #outro {
+    height: 640px;
+  }
+  
+  @media (min-width: 840px) {
+    .nav__examples {
+      margin-top: 0;
+      margin-left: 2rem;
+    }
+  }
