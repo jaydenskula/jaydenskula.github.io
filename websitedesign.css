@@ -1,17 +1,98 @@
-  html,
-  body {
+  html, head{
     margin: 0;
     padding: 0;
     max-width: 60rem;
-    background-color: #70ccd8;
+    background-color: #1e7786;
     align-items: center;
   }
   
   body {
-    min-height: 1280px;
-    color: #3b3b3b;
+    color: black;
     font-size: 24px;
     align-items: center;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  #sideScrolly {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #ecf8fa;
+    padding: 1rem;
+  }
+
+  #sideScrolly > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  #overlayScrolly{
+    position: relative;
+    background-color: grey;
+    padding: 1rem;
+  }
+
+  article {
+    position: relative;
+    padding: 1rem;
+    max-width: 50rem;
+  }
+
+  .USA_map {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #4b3030;
+    z-index: 0;
+    top: 0;
+    height: 10rem;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AUSTRALIA_map {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #a01919;
+    z-index: 0;
+    top: 0;
+    height: 10rem;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step {
+    margin: 0 auto 2rem auto;
+    background-color: #ecf8fa;
+    color: #8a8a8a;
+  }
+
+  .step:last-child {
+    margin-bottom: 0;
+  }
+
+  .step.is-active {
+    background-color: goldenrod;
+    color: #3b3b3b;
+  }
+
+  .step p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
   }
 
   h1{
@@ -29,9 +110,10 @@
   }
   
   #intro {
-    max-width: 40rem;
+    max-width: 60rem;
     margin: 1rem auto;
     text-align: center;
+    margin-bottom: 10rem;
   }
   
   .intro__hed {
@@ -40,19 +122,13 @@
     margin: 2rem auto 0.5rem auto;
   }
   
-  .intro__dek {
+  .intro__sub {
     font-family: Georgia;
-    color: #8a8a8a;
+    color: #000000;
   }
   
   #outro {
     height: 640px;
     text-align: center;
-  }
-  
-  @media (min-width: 840px) {
-    .nav__examples {
-      margin-top: 0;
-      margin-left: 2rem;
-    }
+    margin-top: 10rem;
   }
