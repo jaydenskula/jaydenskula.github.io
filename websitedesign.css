@@ -1,19 +1,22 @@
-
-* {
-    box-sizing: border-box;
-  }
-  
   html,
   body {
     margin: 0;
     padding: 0;
     max-width: 60rem;
+    background-color: #70ccd8;
+    align-items: center;
   }
   
   body {
     min-height: 1280px;
     color: #3b3b3b;
     font-size: 24px;
+    align-items: center;
+  }
+
+  h1{
+    font-family: Georgia;
+    text-align: center;
   }
 
   h2{
@@ -44,6 +47,7 @@
   
   #outro {
     height: 640px;
+    text-align: center;
   }
   
   @media (min-width: 840px) {
