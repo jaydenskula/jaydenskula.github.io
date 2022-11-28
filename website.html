@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Back to Bite Us in the Butt?</title>
+    <meta name="description" content="Back to Bite Us in the Butt?" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="websitedesign.css" />
+    <style>
+      #scrolly {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #70ccd8;
+        padding: 1rem;
+      }
+
+      #scrolly > * {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+
+      article {
+        position: relative;
+        padding: 0 1rem;
+        max-width: 40rem;
+      }
+
+      .sticky-thing {
+        position: -webkit-sticky;
+        position: sticky;
+        width: 100%;
+        margin: 0;
+        background-color: #4b3030;
+        background-image: url(images/AUSTRALIA\ Map\ Drawing.jpg);
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sticky-thing p {
+        padding: 1rem;
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        background-color: #3b3b3b;
+        color: #fff;
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active {
+        background-color: goldenrod;
+        color: #3b3b3b;
+      }
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section id="intro">
+        <h1 class="intro__hed">BACK TO BITE US IN THE BUTT?</h1>
+        <h2 class="intro__dek">
+          INTRODUCTION
+        </h2>
+        <p>
+          Are you afraid of sharks? After being exposed to popular horror movies like Jaws, a fear of sharks is common.
+          Even worse, shark attacks are becoming more common, especially in the United States.
+          Why are more shark attacks happening? The most obvious answer is population growth; more humans means more humans for sharks to attack.
+          However, the answer must be more nuanced than that, right?
+        </p>
+        <p>The USA composes about 38.54% of the total recorded shark attacks between 1898 and 2022 with a total of 2336 incidents.</p>
+        <p>Australia composes about 21.4% of total shark attacks with a total of 1299 incidents.</p>
+        <p>South Africa composes about 9.3% of total shark attacks with a total of 564 incidents.</p>
+        <p>Other countries that have exceeded 100 recorded attacks from 1898-2022 include BRAZIL and NEW ZEALAND.</p>
+        <p>MEXICO, ITALY, NEW CALEDONIA, PHILIPPHINES, REUNIONE, and FIJI have over 50, but less than 100 shark attacks between 1898-2022.</p>
+
+        <p>
+          The USA, Australia, and South Africa combined account for over half of history's recorded shark attacks and there is reason
+          to belive that there is more at play contributing the shark attack incidents than exponential population growth. 
+        </p>
+
+        <h2>ON SHARK BEHAVIOR</h2>
+        <p>Sharks have a preference for warmer waters.</p>
+        <p>The hunting ability of sharks is reduced in highly acidic water</p>
+      </section>
+
+      <section id="scrolly">
+        <article>
+          <div class="step" data-step= "1900">
+            <h2>UNITED STATES</h2>
+          </div>
+          <div class="step" data-step="2000">
+            <h2>THE HISTORY</h2>
+            <p>Most shark attacks occur less than 100 feet from shore.</p>
+          </div>
+          <div class="step" data-step="2022">
+            <h2>OCEAN TEMPERATURES</h2>
+            <p>Sharks often come closer to shore while they are nursing.</p>
+          </div>
+          <div class="step" data-step="4">
+            <p>OCEAN ACIDITY</p>
+          </div>
+          <div class="step" data-step= "1980">
+            <h2>AUSTRALIA</h2>
+          </div>
+          <div class="step" data-step="2">
+            <h2>THE HISTORY</h2>
+            <p>Content.</p>
+          </div>
+          <div class="step" data-step="3">
+            <h2>OCEAN TEMPERATURES</h2>
+            <p>Sharks often come closer to shore while they are nursing.</p>
+          </div>
+          <div class="step" data-step="4">
+            <p>OCEAN ACIDITY</p>
+          </div>
+        </article>
+
+        <div class="sticky-thing">
+          <p>0</p>
+        </div>
+      </section>
+
+      <section id="outro">
+        Sharks are becoming scarier nowadays. But we should take a step back and think about what impacts we have on them. 
+      </section>
+    </main>
+    
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+      // using d3 for convenience
+      var main = document.querySelector("main");
+      var scrolly = main.querySelector("#scrolly");
+      var sticky = scrolly.querySelector(".sticky-thing");
+      var article = scrolly.querySelector("article");
+      var steps = article.querySelectorAll(".step");
+
+      // initialize the scrollama
+      var scroller = scrollama();
+
+      // scrollama event handlers
+      function handleStepEnter(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+
+        // remove is-active from all steps
+        // then add is-active to this step
+        steps.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+
+        // update graphic based on step
+        sticky.querySelector("p").innerText = el.dataset.step;
+      }
+
+      function init() {
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 0.33,
+            debug: true
+          })
+          .onStepEnter(handleStepEnter);
+
+        // setup resize event
+        window.addEventListener("resize", scroller.resize);
+      }
+
+      // kick things off
+      init();
+    </script>
+  </body>
+</html>
+
+
+
+<html>
+    <style>
+        image{border:4px solid orange; width: 120px;height: 100px;}
+        h1{text-transform:uppercase}
+    </style>
+<head>
+    <title>
+        HTML frame scrolling Attribute
+    </title>
+</head>
+<body>
+    <h1>INSERTING IMAGE</h1>
+    <img src="images/epaulette shark.jpg" alt="image is not available">
+</body>
+</html>
+
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HISTORY OF SHARK ATTACKS</title>
+    <meta name="description" content="HISTORY OF SHARK ATTACKS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="websitedesign.css" />
+    <style>
+      #scrolly {
+        position: relative;
+        background-color: #f3f3f3;
+        padding: 1rem;
+      }
+
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 40rem;
+        margin: 0 auto;
+      }
+
+      .sticky-thing {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        background-color: #8a8a8a;
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('images/mountains.jpg');
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .sticky-thing p {
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        margin-bottom: 15rem;
+        color: #fff;
+        background-color: #1ec846a1;
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active p {
+        background-color: rgb(124 225 148 / 80%);
+        color: #3b3b3b;
+      }
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: #1ec846a1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section id="intro">
+        <h1 class="intro__hed">COUNTRY</h1>
+        <h2 class="intro__dek">
+          HISTORY OF SHARK ATTACKS
+        </h2>
+      </section>
+
+      <section id="scrolly">
+        <div class="sticky-thing">
+          <p>image</p>
+          <img src="images/AUSTRALIA Map Drawing.jpg" alt = "Image is not available">
+        </div>
+
+        <article>
+          <div class="step" data-step="1" data-color="red">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="step" data-step="2" data-color="green">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="step" data-step="3" data-color="blue">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="step" data-step="4" data-color="red">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="outro"></section>
+    </main>
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+      // DOM - document object model
+      var main = document.querySelector("main");
+      var scrolly = main.querySelector("#scrolly");
+      var sticky = scrolly.querySelector(".sticky-thing");
+      var article = scrolly.querySelector("article");
+      var steps = article.querySelectorAll(".step");
+
+      // initialize the scrollama
+      var scroller = scrollama();
+
+      // scrollama event handlers
+      function handleStepEnter(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+        console.log(el);
+        
+        // remove is-active from all steps
+        // then add is-active to this step
+        steps.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+
+        // update graphic based on step
+        // use "template literals" with backticks
+        sticky.querySelector("p").innerText = `Step number ${el.dataset.step}`;
+        sticky.style.backgroundColor = el.dataset.color;
+        sticky.querySelector("p").style.fontSize = `${el.dataset.step}rem`;
+      }
+
+      function init() {
+        // 2. setup the scroller passing options
+        // 		this will also initialize trigger observations
+        // 3. bind scrollama event handlers (this can be chained like below)
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 0.33,
+            debug: true
+          })
+          .onStepEnter(handleStepEnter);
+
+        // setup resize event
+        window.addEventListener("resize", scroller.resize);
+      }
+
+      // kick things off
+      init();
+    </script>
+  </body>
+</html>
