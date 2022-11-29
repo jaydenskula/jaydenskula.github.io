@@ -1,0 +1,48 @@
+#sideScrolly 
+{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: snow;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+#sideScrolly > * 
+{
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#overlayScrolly
+{
+  position: relative;
+  background-color: snow;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  align-items: center;
+}
+
+body 
+{
+  background-color: rgb(34, 65, 77);
+  align-items: center;
+  text-align: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+#intro
+{
+    margin-top: 3rem;
+}
+
+.intro_head
+{
+    color: snow;
+    font-family: Cambria;
+    font-size: 70px;
+}
