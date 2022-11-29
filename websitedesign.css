@@ -99,13 +99,13 @@
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    padding: 3rem;
-    margin-top: 3rem;
-    background-color: #8f2d87;
+    z-index: 0;
     top: 0;
     height: 10rem;
+    padding: 3rem;
     display: flex;
     align-items: center;
+    align-items:flex-start;
     justify-content: center;
   }
 
@@ -113,13 +113,13 @@
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    padding: 3rem;
-    margin-top: 3rem;
-    background-color: #a01919;
+    z-index: 0;
     top: 0;
     height: 10rem;
+    padding: 3rem;
     display: flex;
     align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 
@@ -127,14 +127,13 @@
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    padding: 3rem;
-    margin-top: 3rem;
-    background-color: #472828;
     z-index: 0;
     top: 0;
     height: 10rem;
+    padding: 3rem;
     display: flex;
     align-items: center;
+    align-items:flex-start;
     justify-content: center;
   }
 
