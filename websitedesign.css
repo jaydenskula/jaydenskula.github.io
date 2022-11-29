@@ -2,12 +2,11 @@
     background-color: rgb(18, 77, 92);
     align-items: center;
     text-align: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 
   #intro {
-    margin: 1rem;
     text-align: center;
     margin-bottom: 10rem;
     background-color: snow;
@@ -16,14 +15,13 @@
   
   .intro__hed {
     font-family: Georgia;
-    color:rgb(18, 77, 92);
+    color:rgb(14, 57, 68);
     font-size: 3em;
-    margin: 2rem auto 0.5rem auto;
   }
   
   .intro__sub {
     font-family: Georgia;
-    color: rgb(78, 135, 161);
+    color: rgb(42, 98, 124);
   }
 
   #sideScrolly {
@@ -33,6 +31,7 @@
     display: flex;
     background-color: snow;
     padding: 3rem;
+    margin-bottom: 5rem;
   }
 
   #sideScrolly > * {
@@ -43,8 +42,11 @@
 
   #overlayScrolly{
     position: relative;
-    background-color: grey;
+    background-color: snow;
     padding: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    align-items: center;
   }
 
   article {
@@ -53,16 +55,22 @@
     max-width: 40rem;
   }
 
+  h2 {
+    font-family: Georgia;
+    color: rgb(42, 98, 124);
+    font-size: 40px;
+  }
+
   p {
     font-family: Georgia;
-    color:rgb(70, 74, 75);
+    color: rgb(94, 107, 106);
     font-size: 24px;
   }
 
   .pH_Scale {
     position: -webkit-sticky;
     position: sticky;
-    width: 100%;
+    width: 5rem;
     padding: 3rem;
     margin-top: 3rem;
     background-color: #178665;
@@ -80,6 +88,20 @@
     padding: 3rem;
     margin-top: 3rem;
     background-color: #4b3030;
+    top: 0;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .FLORIDA_map {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #8f2d87;
     top: 0;
     height: 10rem;
     display: flex;
@@ -111,7 +133,6 @@
     z-index: 0;
     top: 0;
     height: 10rem;
-    /* Center everything inside */
     display: flex;
     align-items: center;
     justify-content: center;
