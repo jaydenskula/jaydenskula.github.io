@@ -1,18 +1,29 @@
-  html, head{
-    margin: 0;
-    padding: 0;
-    max-width: 60rem;
-    background-color: #1e7786;
-    align-items: center;
-  }
-  
   body {
-    color: black;
-    font-size: 24px;
+    background-color: rgb(18, 77, 92);
     align-items: center;
     text-align: center;
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+
+  #intro {
+    margin: 1rem;
+    text-align: center;
+    margin-bottom: 10rem;
+    background-color: snow;
+    padding: 3rem;
+  }
+  
+  .intro__hed {
+    font-family: Georgia;
+    color:rgb(18, 77, 92);
+    font-size: 3em;
+    margin: 2rem auto 0.5rem auto;
+  }
+  
+  .intro__sub {
+    font-family: Georgia;
+    color: rgb(78, 135, 161);
   }
 
   #sideScrolly {
@@ -20,8 +31,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #ecf8fa;
-    padding: 1rem;
+    background-color: snow;
+    padding: 3rem;
   }
 
   #sideScrolly > * {
@@ -33,13 +44,33 @@
   #overlayScrolly{
     position: relative;
     background-color: grey;
-    padding: 1rem;
+    padding: 3rem;
   }
 
   article {
     position: relative;
-    padding: 1rem;
-    max-width: 50rem;
+    padding: 3rem;
+    max-width: 40rem;
+  }
+
+  p {
+    font-family: Georgia;
+    color:rgb(70, 74, 75);
+    font-size: 24px;
+  }
+
+  .pH_Scale {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #178665;
+    top: 0;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .USA_map {
@@ -49,10 +80,8 @@
     padding: 3rem;
     margin-top: 3rem;
     background-color: #4b3030;
-    z-index: 0;
     top: 0;
     height: 10rem;
-    /* Center everything inside */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,6 +94,20 @@
     padding: 3rem;
     margin-top: 3rem;
     background-color: #a01919;
+    top: 0;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SOUTHAFRICA_map {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #472828;
     z-index: 0;
     top: 0;
     height: 10rem;
@@ -76,8 +119,7 @@
 
   .step {
     margin: 0 auto 2rem auto;
-    background-color: #ecf8fa;
-    color: #8a8a8a;
+    color: rgb(31, 46, 75);
   }
 
   .step:last-child {
@@ -94,41 +136,13 @@
     padding: 1rem;
     font-size: 1.5rem;
   }
-
-  h1{
-    font-family: Georgia;
-    text-align: center;
-  }
-
-  h2{
-    font-family: Georogia;
-    text-align: center;
-  }
-  
-  p{
-    font-family: Georgia;
-  }
-  
-  #intro {
-    max-width: 60rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 10rem;
-  }
-  
-  .intro__hed {
-    font-family: Georgia;
-    font-size: 2em;
-    margin: 2rem auto 0.5rem auto;
-  }
-  
-  .intro__sub {
-    font-family: Georgia;
-    color: #000000;
-  }
   
   #outro {
-    height: 640px;
+    margin-top: 4rem;
+    font-family:Georgia;
     text-align: center;
-    margin-top: 10rem;
+    color:rgb(18, 77, 92);
+    font-size: 24px;
+    padding: 3rem;
+    background-color: snow;
   }
