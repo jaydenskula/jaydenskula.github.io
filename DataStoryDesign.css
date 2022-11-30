@@ -4,7 +4,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: snow;
+  background-color: rgb(255, 255, 255);
   padding: 3rem;
   margin-bottom: 5rem;
 }
@@ -19,7 +19,7 @@
 #overlayScrolly
 {
   position: relative;
-  background-color: snow;
+  background-color: rgb(255, 255, 255);
   padding: 3rem;
   margin-bottom: 5rem;
   text-align: center;
@@ -28,7 +28,7 @@
 
 body 
 {
-  background-color: rgb(34, 65, 77);
+  background-color: rgb(255, 255, 255);
   align-items: center;
   text-align: center;
   margin-left: 15rem;
@@ -42,7 +42,101 @@ body
 
 .intro_head
 {
-    color: snow;
-    font-family: Cambria;
+    color: rgb(46, 57, 65);
+    font-family: 'Dubai Medium';
     font-size: 70px;
+}
+
+#header
+{
+  color:rgb(46, 57, 65);
+  font-family: 'Dubai Medium';
+  font-size: 40px;
+  margin-bottom: 3rem;
+  align-content: center;
+}
+
+#body
+{
+  color:rgb(46, 57, 65);
+  font-family: Dubai;
+  font-size: 24px;
+  margin: 3rem;
+  align-content: center;
+}
+
+article
+{
+  position: relative;
+  background-color:rgb(255, 255, 255);
+  max-width: 40rem;
+  font-size: 20px;
+  margin-bottom: 5rem;
+  padding: 0.5rem;
+}
+
+.step 
+{
+  max-width: 40rem;
+  background-color:rgb(70, 86, 97);
+  margin: 5rem;
+  padding: 1rem;
+}
+
+.step p
+{
+  font-family: 'Dubai Medium';
+  color:rgb(255, 255, 255);
+}
+
+.vis1
+{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgb(82, 82, 114);
+  width: 5rem;
+  top: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vis2
+{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgb(75, 62, 87);
+  width: 5rem;
+  top: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vis3
+{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgb(21, 71, 75);
+  width: 5rem;
+  top: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vis4
+{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgb(31, 80, 102);
+  width: 5rem;
+  top: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
