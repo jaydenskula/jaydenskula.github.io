@@ -56,7 +56,7 @@ body
   align-content: center;
 }
 
-#body
+#textBody
 {
   color:rgb(46, 57, 65);
   font-family: Dubai;
@@ -68,25 +68,23 @@ body
 article
 {
   position: relative;
-  background-color:rgb(255, 255, 255);
-  max-width: 40rem;
-  font-size: 20px;
-  margin-bottom: 5rem;
-  padding: 0.5rem;
+  width: 40rem;
 }
 
 .step 
 {
   max-width: 40rem;
   background-color:rgb(70, 86, 97);
-  margin: 5rem;
-  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 3rem;
+  align-content: center;
 }
 
 .step p
 {
   font-family: 'Dubai Medium';
   color:rgb(255, 255, 255);
+  font-size: 20px;
 }
 
 .vis1
@@ -139,4 +137,15 @@ article
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.florida
+{
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  top: 0;
+  height: 10rem;
+  margin-top: 7rem;
+  align-items: center;
 }
