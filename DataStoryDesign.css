@@ -93,7 +93,17 @@ article
   font-size: 24px;
 }
 
-.vis1{
+.population
+{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 1rem;
+  margin-bottom: 12rem;
+  top: 0;
+  height: 30rem;
+}
+.vis1
+{
   position: -webkit-sticky;
   position: sticky;
   margin-left: 1rem;
