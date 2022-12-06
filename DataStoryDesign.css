@@ -72,12 +72,12 @@ article
 {
   position: relative;
   background-color:rgb(247, 244, 244);
-  max-width: 30rem;
+  max-width: 20rem;
 }
 
 .step 
 {
-  max-width: 30rem;
+  max-width: 20rem;
   background-color:rgb(70, 86, 97);
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -98,18 +98,25 @@ article
   position: -webkit-sticky;
   position: sticky;
   margin-left: 1rem;
-  margin-bottom: 12rem;
   top: 0;
-  height: 30rem;
+  height: 22rem;
 }
 .global_summary
 {
   position: -webkit-sticky;
   position: sticky;
   margin-left: 1rem;
-  margin-bottom: 12rem;
   top: 0;
-  height: 30rem;
+  height: 22rem;
+}
+
+.florida_attacks
+{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 1rem;
+  top: 0;
+  height: 22rem;
 }
 
 .attack_population_us
