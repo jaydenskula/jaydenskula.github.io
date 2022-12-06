@@ -102,7 +102,37 @@ article
   top: 0;
   height: 30rem;
 }
-.vis1
+.global_summary
+{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 1rem;
+  margin-bottom: 12rem;
+  top: 0;
+  height: 30rem;
+}
+
+.attack_population_us
+{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 1rem;
+  margin-bottom: 12rem;
+  top: 0;
+  height: 30rem;
+}
+
+.ph
+{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 1rem;
+  margin-bottom: 12rem;
+  top: 0;
+  height: 30rem;
+}
+
+.attack_population_global
 {
   position: -webkit-sticky;
   position: sticky;
