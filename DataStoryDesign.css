@@ -69,7 +69,6 @@ body
 article
 {
   position: relative;
-  background-color:rgb(247, 244, 244);
 }
 
 .step 
@@ -94,11 +93,6 @@ article
 {
   max-width: 40rem;
   background-color:rgb(68, 61, 82);
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding: 0.5rem;
 }
 
 .overlay_step p
@@ -166,3 +160,18 @@ article
 }
 
 /* IMAGES */
+.img
+{
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  background-color: #8a8a8a;
+  z-index: 0;
+  top: 5rem;
+  height: 20rem;
+  /* Center everything inside */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
