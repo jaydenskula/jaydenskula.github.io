@@ -22,8 +22,6 @@
   background-color: rgb(255, 255, 255);
   padding: 3rem;
   margin-bottom: 5rem;
-  text-align: center;
-  align-items: center;
 }
 
 body 
@@ -72,7 +70,6 @@ article
 {
   position: relative;
   background-color:rgb(247, 244, 244);
-  max-width: 20rem;
 }
 
 .step 
@@ -93,6 +90,26 @@ article
   font-size: 24px;
 }
 
+.overlay_step
+{
+  max-width: 40rem;
+  background-color:rgb(68, 61, 82);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+.overlay_step p
+{
+  font-family: Dubai;
+  color:rgb(255, 255, 255);
+  font-size: 24px;
+}
+
+
+/* GRAPHS */
 .population
 {
   position: -webkit-sticky;
@@ -101,6 +118,7 @@ article
   top: 0;
   height: 22rem;
 }
+
 .global_summary
 {
   position: -webkit-sticky;
@@ -147,12 +165,4 @@ article
   height: 30rem;
 }
 
-.attack_population_global
-{
-  position: -webkit-sticky;
-  position: sticky;
-  margin-left: 1rem;
-  margin-bottom: 12rem;
-  top: 0;
-  height: 30rem;
-}
+/* IMAGES */
