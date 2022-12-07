@@ -115,6 +115,28 @@ article
   height: 22rem;
 }
 
+.ph
+{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 4rem;
+  margin-bottom: 9rem;
+  margin-left: 1rem;
+  top: 0;
+  height: 22rem;
+}
+
+.aragonite
+{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+  margin-left: 1rem;
+  top: 0;
+  height: 22rem;
+}
+
 /* IMAGES */
 .img
 {
