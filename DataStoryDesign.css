@@ -106,58 +106,13 @@ article
 
 
 /* GRAPHS */
-.population
+.graph
 {
   position: -webkit-sticky;
   position: sticky;
   margin-left: 1rem;
   top: 0;
   height: 22rem;
-}
-
-.global_summary
-{
-  position: -webkit-sticky;
-  position: sticky;
-  margin-left: 1rem;
-  top: 0;
-  height: 22rem;
-}
-
-.florida_attacks
-{
-  position: -webkit-sticky;
-  position: sticky;
-  margin-left: 1rem;
-  top: 0;
-  height: 25rem;
-}
-
-.population_fl_ca
-{
-  position: -webkit-sticky;
-  position: sticky;
-  margin-left: 1rem;
-  top: 0;
-  height: 25rem;
-}
-
-.attacks_fl_ca
-{
-  position: -webkit-sticky;
-  position: sticky;
-  margin-left: 1rem;
-  top: 0;
-  height: 25rem;
-}
-
-.ph
-{
-  position: -webkit-sticky;
-  position: sticky;
-  margin-left: 1rem;
-  top: 0;
-  height: 30rem;
 }
 
 /* IMAGES */
