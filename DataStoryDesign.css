@@ -1,12 +1,15 @@
+body 
+{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 #sideScrolly 
 {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgb(255, 255, 255);
-  padding: 3rem;
-  margin-bottom: 5rem;
 }
 
 #sideScrolly > * 
@@ -16,79 +19,62 @@
   flex: 1;
 }
 
-#overlayScrolly
-{
-  position: relative;
-  background-color: rgb(255, 255, 255);
-  padding: 3rem;
-  margin-bottom: 5rem;
-}
-
-body 
-{
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-#intro
-{
-    color:rgb(255, 255, 255);
-}
-
-.intro_head
+h1
 {
     color: rgb(70, 86, 97);
     font-family: Georgia;
     font-size: 70px;
+    text-align: center;
 }
 
 #header
 {
-  color:rgb(255, 255, 255);
-  background-color:rgb(70, 86, 97);
+  color:rgb(70, 86, 97);
   font-family: Georgia;
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
 }
 
 #textBody
 {
   color:rgb(46, 57, 65);
   font-family: Georgia;
-  font-size: 24px;
-  margin-top: 3rem;
+  font-size: 20px;
 }
 
 article
 {
   position: relative;
+  max-width: 25rem;
 }
 
 .step 
 {
-  max-width: 20rem;
   background-color:rgb(70, 86, 97);
   padding: 0.5rem;
+  margin-bottom: 10rem;
 }
 
 .step p
 {
   font-family: Georgia;
   color:rgb(255, 255, 255);
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
 }
 
 .overlay_step
 {
   background-color:rgb(68, 61, 82);
-  padding: 0.25rem;
+  padding: 0.5rem;
+  margin-bottom: 10rem;
 }
 
 .overlay_step p
 {
   font-family: Georgia;
   color:rgb(255, 255, 255);
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -100,29 +86,24 @@ article
   position: sticky;
   margin-left: 1rem;
   top: 0;
-  height: 22rem;
+  bottom: 0;
+  height: auto;
 }
 
 .ph
 {
   position: -webkit-sticky;
   position: sticky;
-  margin-top: 4rem;
-  margin-bottom: 9rem;
   margin-left: 1rem;
   top: 0;
-  height: 22rem;
 }
 
 .aragonite
 {
   position: -webkit-sticky;
   position: sticky;
-  margin-top: 4rem;
-  margin-bottom: 7rem;
   margin-left: 1rem;
   top: 0;
-  height: 22rem;
 }
 
 /* IMAGES */
@@ -131,13 +112,9 @@ article
   position: -webkit-sticky;
   position: sticky;
   width: 100%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  z-index: 0;
-  top: 5rem;
-  height: 30rem;
+  top: 0;
+  height: auto;
   /* Center everything inside */
   display: flex;
-  align-items: center;
   justify-content: center;
 }
