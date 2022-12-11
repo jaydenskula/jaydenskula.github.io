@@ -26,22 +26,19 @@
 
 body 
 {
-  background-color: rgb(255, 255, 255);
-  align-items: center;
-  text-align: center;
   margin-left: 8rem;
   margin-right: 8rem;
 }
 
 #intro
 {
-    background-color:rgb(70, 86, 97);
+    color:rgb(255, 255, 255);
 }
 
 .intro_head
 {
-    color: rgb(255, 255, 255);
-    font-family: 'Dubai Medium';
+    color: rgb(70, 86, 97);
+    font-family: Georgia;
     font-size: 70px;
 }
 
@@ -49,21 +46,16 @@ body
 {
   color:rgb(255, 255, 255);
   background-color:rgb(70, 86, 97);
-  font-family: 'Dubai Medium';
+  font-family: Georgia;
   font-size: 40px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  align-content: center;
 }
 
 #textBody
 {
   color:rgb(46, 57, 65);
-  font-family: Dubai;
+  font-family: Georgia;
   font-size: 24px;
   margin-top: 3rem;
-  margin-bottom: 3rem;
-  align-content: center;
 }
 
 article
@@ -75,33 +67,29 @@ article
 {
   max-width: 20rem;
   background-color:rgb(70, 86, 97);
-  margin-top: 7rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
   padding: 0.5rem;
 }
 
 .step p
 {
-  font-family: Dubai;
+  font-family: Georgia;
   color:rgb(255, 255, 255);
   font-size: 24px;
+  text-align: left;
 }
 
 .overlay_step
 {
   background-color:rgb(68, 61, 82);
-  margin-top: 10rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
   padding: 0.25rem;
 }
 
 .overlay_step p
 {
-  font-family: Dubai;
+  font-family: Georgia;
   color:rgb(255, 255, 255);
   font-size: 24px;
+  text-align: left;
 }
 
 
