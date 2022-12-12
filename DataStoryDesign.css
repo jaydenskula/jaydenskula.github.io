@@ -32,6 +32,14 @@ h1
     text-align: center;
 }
 
+#sub
+{
+  color:rgb(116, 135, 147);
+  font-family: Georgia;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
 #header
 {
   color:rgb(70, 86, 97);
