@@ -49,10 +49,18 @@ h1
   margin-bottom: 3rem;
 }
 
+#graph_title
+{
+  color: rgb(43, 43, 43);
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Dubai Medium';
+}
+
 article
 {
   position: relative;
-  max-width: 25rem;
+  max-width: 20rem;
 }
 
 .step 
