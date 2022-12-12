@@ -58,7 +58,10 @@ article
 .step 
 {
   background-color:rgb(70, 86, 97);
-  padding: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   margin-bottom: 10rem;
 }
 
@@ -82,6 +85,10 @@ article.overlay_article
   background-color:rgb(68, 61, 82);
   padding: 0.5rem;
   margin-bottom: 10rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .overlay_step p
@@ -100,7 +107,7 @@ article.overlay_article
   position: sticky;
   margin-left: 1rem;
   top: 0;
-  height: 45rem;
+  height: 40rem;
 }
 
 .graph_fixed
