@@ -20,7 +20,7 @@
 - ICA14
 - ICA15
 ## Weekly Assignments
-- [WA1](https://github.com/jaydenskula/jaydenskula.github.io/wa/wa1.html)
+- [WA1](https://jaydenskula.github.io/wa/wa1.html)
 - WA2
 - WA3
 - WA4
