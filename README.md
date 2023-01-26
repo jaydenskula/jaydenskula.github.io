@@ -4,8 +4,8 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](https://github.com/jaydenskula/jaydenskula.github.io/ica/howToSearch.pdf)
-- [ICA2](https://github.com/jaydenskula/jaydenskula.github.io/ica/exploringDirectoryStructures.pdf)
+- [ICA1](https://jaydenskula.github.io/ica/howToSearch.pdf)
+- [ICA2](https://jaydenskula.github.io/ica/exploringDirectoryStructures.pdf)
 - ICA3
 - ICA4
 - ICA5
@@ -20,8 +20,8 @@
 - ICA14
 - ICA15
 ## Weekly Assignments
-- [WA1](https://github.com/jaydenskula/jaydenskula.github.io/wa/wa1.html)
-- [WA2](https://github.com/jaydenskula/jaydenskula.github.io/wa/wa2.html)
+- [WA1](https://jaydenskula.github.io/wa/wa1.html)
+- [WA2](https://jaydenskula.github.io/wa/wa2.html)
 - WA3
 - WA4
 - WA5
