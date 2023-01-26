@@ -5,7 +5,7 @@
 - JS
 ## In-Class Assignments
 - [ICA1](https://github.com/jaydenskula/jaydenskula.github.io/ica/howToSearch.pdf)
-- ICA2
+- [ICA2](https://github.com/jaydenskula/jaydenskula.github.io/ica/exploringDirectoryStructures.pdf)
 - ICA3
 - ICA4
 - ICA5
