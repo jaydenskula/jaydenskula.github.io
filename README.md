@@ -4,7 +4,7 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](https://github.com/jaydenskula/jaydenskula.github.io/blob/5f84d38e9f5ae4834c02bac6f8a970f6bfc45599/ica/How%20to%20Search.pdf)
+- [ICA1](https://github.com/jaydenskula/jaydenskula.github.io/blob/4f83840fe3508ddadeee9787c4c74cd3fb2111f6/ica/How%20to%20Search.pdf)
 - ICA2
 - ICA3
 - ICA4
