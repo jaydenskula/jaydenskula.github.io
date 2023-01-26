@@ -4,7 +4,7 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](https://github.com/jaydenskula/jaydenskula.github.io/blob/4f83840fe3508ddadeee9787c4c74cd3fb2111f6/ica/How%20to%20Search.pdf)
+- [ICA1](https://github.com/jaydenskula/jaydenskula.github.io/ica/howToSearch.pdf)
 - ICA2
 - ICA3
 - ICA4
@@ -21,7 +21,7 @@
 - ICA15
 ## Weekly Assignments
 - [WA1](https://github.com/jaydenskula/jaydenskula.github.io/wa/wa1.html)
-- WA2
+- [WA2](https://github.com/jaydenskula/jaydenskula.github.io/wa/wa2.html)
 - WA3
 - WA4
 - WA5
