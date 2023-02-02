@@ -1,30 +1,76 @@
 body
 {
-    max-width: 900px;
+    max-width: 1275px;
+    margin: 0 auto;
     background-color:bisque;
 }
 
-.menu
+h1
 {
-    color:brown;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 100px;
+    color:rgb(68, 11, 11);
 }
-.row 
+
+nav
 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+a
+{
+    background-color:brown;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: Georgia;
+    font-size: 25px;
+    color:antiquewhite;
+}
+
+#body
+{
+    display: table;
+    clear: both;
+}
   
-  .column 
-  {
-    flex: 50%;
-    max-width: 50%;
-    padding: 0 4px;
-  }
-  
-  .column img 
-  {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+.welcome 
+{
+    float: left;
+    width: 40%;
+    padding-left: 3rem;
+}
+
+.welcome h2
+{
+    text-align: center;
+    font-family: Georgia;
+    color:rgb(68, 11, 11);
+    font-size: 40px;
+}
+
+.welcome p
+{
+    text-align: center;
+    font-family: Georgia;
+    color:rgb(68, 11, 11);
+    padding: 1rem;
+}
+
+.highlights
+{
+    float: right;
+    width: 50%;
+}
+
+.footer
+{
+    background-color:brown;
+    padding: 0.5rem;
+    align-content: center;
+    font-size: 10px;
+    color: antiquewhite;
+    font-family: Georgia;
+    text-align: center;
+}
