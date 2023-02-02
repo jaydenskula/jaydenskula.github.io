@@ -4,8 +4,8 @@
 - CSS
 - JS
 ## In-Class Assignments
-- [ICA1](https://jaydenskula.github.io/ica/howToSearch.pdf)
-- [ICA2](https://jaydenskula.github.io/ica/exploringDirectoryStructures.pdf)
+- [ICA1](https://jaydenskula.github.io/ica/ica1.pdf)
+- [ICA2](https://jaydenskula.github.io/ica/ica2.pdf)
 - [ICA3a](https://jaydenskula.github.io/ica/ica3a.html)
 - [ICA3b](https://jaydenskula.github.io/ica/ica3b.html)
 - ICA4
