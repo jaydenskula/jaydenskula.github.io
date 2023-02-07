@@ -8,7 +8,7 @@
 - [ICA2](https://jaydenskula.github.io/ica/ica2.pdf)
 - [ICA3a](https://jaydenskula.github.io/ica/ica3a.html)
 - [ICA3b](https://jaydenskula.github.io/ica/ica3b.html)
-- ICA4
+- [ICA4](https://jaydenskula.github.io/ica/ica4.html)
 - ICA5
 - ICA6
 - ICA7
