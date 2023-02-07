@@ -1,11 +1,13 @@
 body
 {
-    margin: 0 auto;
+    background-color: antiquewhite;
+    width: 70%;
+    margin: auto;
 }
 
 .navbar
 {
-    background-color: gray;
+    font-family: "Cambria";
 }
 
 h1
@@ -18,27 +20,32 @@ h2
     font-family: "Cambria";
 }
 
-.contents
+h3
 {
     font-family: "Cambria";
 }
 
-#page1
+ul
+{
+    border: 5px solid brown;
+    padding: 1.5rem;
+}
+
+li
 {
     font-family: "Cambria";
 }
 
-#page2
+a:link
 {
-    font-family: "Cambria";
+    color: lightblue;
+}
+a:hover
+{
+    color: blue;
 }
 
-#page3
+a:visited
 {
-    font-family: "Cambria";
-}
-
-#page4
-{
-    font-family: "Cambria";
+    color: rgb(147, 95, 0);
 }
