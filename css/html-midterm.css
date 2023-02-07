@@ -1,5 +1,44 @@
 body
 {
-    max-width: 70%;
-    margin: 1 auto;
+    margin: 0 auto;
+}
+
+.navbar
+{
+    background-color: gray;
+}
+
+h1
+{
+    font-family: "Cambria";
+}
+
+h2
+{
+    font-family: "Cambria";
+}
+
+.contents
+{
+    font-family: "Cambria";
+}
+
+#page1
+{
+    font-family: "Cambria";
+}
+
+#page2
+{
+    font-family: "Cambria";
+}
+
+#page3
+{
+    font-family: "Cambria";
+}
+
+#page4
+{
+    font-family: "Cambria";
 }
