@@ -5,29 +5,10 @@ body
     margin: auto;
 }
 
-.navbar
+hr
 {
-    font-family: "Cambria";
-}
-
-h1
-{
-    font-family: "Cambria";
-}
-
-h2
-{
-    font-family: "Cambria";
-}
-
-h3
-{
-    font-family: "Cambria";
-}
-
-li
-{
-    font-family: "Cambria";
+    color: black;
+    height: 2px;
 }
 
 a:link
