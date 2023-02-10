@@ -43,15 +43,15 @@ html
 /* Card Container */
 .card article
 {
-    height: 120px;
+    height: 12em;
     background-color: rgba(0,0,0,0.3);
 }
 
 /* Header & Footer */
 .card header, footer
 {
-    height: 30px;
-    padding: 10px;
+    height: 3em;
+    padding: 1em;
 }
 
 /* Main Content */
@@ -59,17 +59,17 @@ html
 {
     margin: 0;
     color: #ccc;
-    padding: 10px;
+    padding: 1em;
 }
 
 .card header h2
 {
     margin: 0;
-    font-size: 20px;
+    font-size: 2em;
 }
 
 .card footer p
 {
     margin: 0;
-    font-size: 15px;
+    font-size: 1.5em;
 }
