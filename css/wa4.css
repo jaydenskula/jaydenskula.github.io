@@ -22,6 +22,7 @@ html
     border-radius: 1.5em;
 }
 
+/* Provided business card */
 .card header
 {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
@@ -71,6 +72,73 @@ html
 }
 
 .card footer p
+{
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+
+/* Recreated business card */
+.myCard
+{
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: rgb(238, 225, 229);
+    border: 0.2em solid rgb(37, 5, 5);
+    border-radius: 1.5em;
+}
+
+.myCard header
+{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+}
+  
+.myCard footer
+{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+}
+  
+.myCard article img
+{
+    max-height: 100%;
+    float: right;
+}
+  
+/* Card Container */
+.myCard article
+{
+    height: 12em;
+    background-color: rgb(41, 22, 26);
+}
+
+/* Header & Footer */
+.myCard header, footer
+{
+    height: 3em;
+    padding: 1em;
+}
+
+/* Main Content */
+.myCard article p
+{
+    margin: 0;
+    color: #ccc;
+    padding: 1em;
+    padding-top: 2em;
+}
+
+.myCard header h2
+{
+    margin: 0;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.myCard footer p
 {
     margin: 0;
     font-size: 1.5em;
