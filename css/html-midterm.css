@@ -3,6 +3,7 @@ body
     background-color: antiquewhite;
     width: 70%;
     margin: auto;
+    font-family: 'Verdana';
 }
 
 hr
@@ -12,16 +13,27 @@ hr
     background-color: brown;
 }
 
+dl
+{
+padding-left: 30px;
+}
+
+dt
+{
+    font-size: 18px;
+}
+
+dd
+{
+    font-style: oblique;
+    color: gray;
+}
 a:link
 {
-    color: lightblue;
+    color: rgb(77, 23, 7);
 }
+
 a:hover
 {
     color: blue;
-}
-
-a:visited
-{
-    color: rgb(147, 95, 0);
 }
