@@ -85,7 +85,7 @@ html
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-color: rgb(238, 225, 229);
+    background-color: rgb(240, 240, 240);
     border: 0.2em solid rgb(37, 5, 5);
     border-radius: 1.5em;
 }
@@ -123,24 +123,29 @@ html
 }
 
 /* Main Content */
-.myCard article p
-{
-    margin: 0;
-    color: #ccc;
-    padding: 1em;
-    padding-top: 2em;
-}
-
 .myCard header h2
 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic';
     line-height: 1.5em;
+}
+
+.myCard article p
+{
+    margin: 0;
+    font-family: 'Franklin Gothic';
+    color: #ccc;
+    font-size: 1.15em;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 .myCard footer p
 {
     margin: 0;
     font-size: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     line-height: 1.5em;
 }
