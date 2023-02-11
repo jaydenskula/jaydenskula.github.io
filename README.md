@@ -1,6 +1,6 @@
 # jaydenskula.github.io
 ## Projects
-- HTML
+- [HTML](https://jaydenskula.github.io/html-midterm/page5.html)
 - CSS
 - JS
 ## In-Class Assignments
