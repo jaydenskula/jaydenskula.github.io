@@ -1,0 +1,36 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.overlayTop
+{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(175, 6, 6);
+    text-align: center;
+    color: white;
+    border: 3px solid rgb(59, 0, 0);
+    font-family: 'Verdana';
+}
+  
+.image 
+{
+    width: 540px;
+    height: 358px;
+    background: url("/img/bird.jpg");
+}
+
+.overlayBottom
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-position: bottom;
+    background-color: rgba(175, 6, 6) ;
+    text-align: center;
+    color: white;
+    border: 3px solid rgb(59, 0, 0);
+    font-family:'Verdana';
+}
