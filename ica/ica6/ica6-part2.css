@@ -2,7 +2,6 @@ body{
     background-color: olive;
 }
 
-
 #flex-parent{
     display:flex;
     background-color: orangered;
@@ -11,44 +10,76 @@ body{
     padding:5vw;
 }
 
-
 #grid-parent{
     display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-#grid-parent h1{
+#grid-parent h1
+{
     background-color: grey;
+    width: 50px;
+    height: 50px;
     padding:3vw 5vh;
     margin:5vw;
-    
 }
-#no0{
 
+#no0
+{
+    position: relative;
+    text-align: center;
+    left: 100%;
 }
-#no1{
-
+#no1
+{
+    position: relative;
+    text-align: center;
 }
-#no2{
 
+#no2
+{
+    position: relative;
+    text-align: center;
 }
-#no3{
 
+#no3
+{
+    position: relative;
+    text-align: center;
 }
-#no4{
 
+#no4
+{
+    position: relative;
+    text-align: center;
 }
-#no5{
 
+#no5
+{
+    position: relative;
+    text-align: center;
 }
-#no6{
 
+#no6
+{
+    position: relative;
+    text-align: center;
 }
-#no7{
 
+#no7
+{
+    position: relative;
+    text-align: center;
 }
-#no8{
 
+#no8
+{
+    position: relative;
+    text-align: center;
 }
-#no9{
 
+#no9
+{
+    position: relative;
+    text-align: center;
 }
