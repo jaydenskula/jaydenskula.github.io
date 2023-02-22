@@ -18,8 +18,6 @@ body{
 #grid-parent h1
 {
     background-color: grey;
-    width: 50px;
-    height: 50px;
     padding:3vw 5vh;
     margin:5vw;
 }
