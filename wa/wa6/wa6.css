@@ -6,8 +6,17 @@ body
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
 }
 
-@media (min-width: 500px)
+@media (max-width: 500px)
 {
+    .grid 
+    {
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 980px;
+    }
+}
+
 img 
 {
     float: left;
@@ -70,5 +79,4 @@ nav a
 .feature 
 {
     width: 200px;
-}
 }
