@@ -10,7 +10,9 @@
 - [ICA3b](https://jaydenskula.github.io/ica/ica3b.html)
 - [ICA4](https://jaydenskula.github.io/ica/ica4.html)
 - [ICA5](https://jaydenskula.github.io/ica/ica5.html)
-- [ICA6](https://jaydenskula.github.io/ica/ica6/ica6-part1.html)
+- [ICA6a](https://jaydenskula.github.io/ica/ica6/ica6-part1.html)
+- [ICA6b](https://jaydenskula.github.io/ica/ica6/ica6-part2.html)
+- [ICA6c](https://jaydenskula.github.io/ica/ica6/ica6-part3.html)
 - ICA7
 - ICA8
 - ICA9
@@ -26,7 +28,7 @@
 - [WA3](https://jaydenskula.github.io/wa/wa3.html)
 - [WA4](https://jaydenskula.github.io/wa/wa4.html)
 - [WA5](https://jaydenskula.github.io/wa/wa5.html)
-- WA6
+- [WA6](https://jaydenskula.github.io/wa/wa6/wa6.html)
 - WA7
 - WA8
 - WA9
