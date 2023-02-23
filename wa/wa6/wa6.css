@@ -42,6 +42,8 @@ body
     {
         display: flex;
         align-items: center;
+        justify-content: space-around;
+        flex-flow: row;
         margin: 0;
         padding: 0;
         list-style: none;
