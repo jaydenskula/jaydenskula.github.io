@@ -6,36 +6,23 @@ body
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 500px)
+/* Wide Screen */
+@media (min-width: 500px)
 {
-    img 
-    {
-        max-width: 100%;
-        display: block;
-    }
-      
     .logo 
     {
         font-size: 200%;
-        padding: 50px 20px;
+        padding: 50px 20px; 
         margin: 0 auto;
-        max-width: 980px;
+        max-width: 1250px;
     }
-      
-    .grid 
-    {
-        display: grid;
-        margin: 0 auto;
-        padding: 0 20px;
-        max-width: 980px;
-    }
-      
+    
     nav 
     {
         position: sticky;
         top: 0;
         background-color: #000;
-        padding: .5em;
+        padding: 0.5em;
     }
       
     nav ul 
@@ -43,7 +30,6 @@ body
         display: flex;
         align-items: center;
         justify-content: space-around;
-        flex-flow: row;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -53,58 +39,63 @@ body
     {
         color: #fff;
         text-decoration: none;
-        padding: .5em 1em;
+        padding: 0.5em;
     }
-      
-    .photos 
+
+    .grid 
     {
         display: grid;
-        gap: 1px;
-        grid-template-columns: 1fr 1fr;
-        list-style: none;
-        margin: 0;
-        padding-left: 1em;
+        grid-template-columns: 2fr 1fr;
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 1250px;
     }
-    
+
     .feature 
     {
         float: left;
-        padding-right: 1em;
         width: 200px;
+        padding-right: 1.5em;
+    }
+
+    aside h2
+    {
+        position: relative;
+        left: 1.4em;
+    }
+       
+    .photos 
+    {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 1px;
+        list-style: none;
+    }
+
+    img
+    {
+        width: 100%;
+        display: block;
     }
 }
 
-
-@media (min-width: 500px)
+/* Small Screen */
+@media (max-width: 500px)
 {
-    img 
-    {
-        max-width: 100%;
-        display: block;
-    }
-      
     .logo 
     {
         font-size: 200%;
-        padding: 50px 20px;
+        padding: 50px 20px; 
         margin: 0 auto;
-        max-width: 980px;
+        max-width: 1250px;
     }
-      
-    .grid 
-    {
-        display: flex;
-        margin: 0 auto;
-        padding: 0 20px;
-        max-width: 980px;
-    }
-      
+    
     nav 
     {
         position: sticky;
         top: 0;
         background-color: #000;
-        padding: .5em;
+        padding: 0.5em;
     }
       
     nav ul 
@@ -121,23 +112,42 @@ body
     {
         color: #fff;
         text-decoration: none;
-        padding: .5em 1em;
+        padding: 0.5em;
     }
-      
-    .photos 
+
+    .grid 
     {
         display: grid;
-        gap: 1px;
-        grid-template-columns: 1fr 1fr;
-        list-style: none;
-        margin: 0;
-        padding-left: 1em;
+        grid-template-columns: 2fr 1fr;
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 1250px;
     }
-    
+
     .feature 
     {
         float: left;
-        padding-right: 1em;
         width: 200px;
+        padding-right: 1.5em;
+    }
+
+    aside h2
+    {
+        position: relative;
+        left: 1.4em;
+    }
+       
+    .photos 
+    {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 1px;
+        list-style: none;
+    }
+
+    img
+    {
+        width: 100%;
+        display: block;
     }
 }
