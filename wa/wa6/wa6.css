@@ -100,9 +100,7 @@ body
       
     nav ul 
     {
-        display: flex;
         align-items: center;
-        justify-content: space-around;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -133,7 +131,6 @@ body
     aside h2
     {
         position: relative;
-        left: 1.4em;
     }
        
     .photos 
