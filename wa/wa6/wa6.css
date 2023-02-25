@@ -88,9 +88,8 @@ body
 {
     .logo 
     {
-        font-size: 200%;
-        padding: 50px 20px; 
-        margin: 0 auto;
+        font-size: 200%; 
+        margin: 0.5em auto;
     }
     
     nav 
