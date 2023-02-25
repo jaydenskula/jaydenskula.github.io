@@ -131,7 +131,6 @@ body
     {
         float: left;
         width: 200px;
-        padding-right: 0.5em;
     }
 
     ul
@@ -143,7 +142,7 @@ body
     .photos 
     {
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 100px 100px;
         gap: 1px;
         list-style: none;
     }
