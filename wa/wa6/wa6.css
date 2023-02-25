@@ -58,12 +58,16 @@ body
         padding-right: 1.5em;
     }
 
-    aside h2
+    ul 
     {
-        position: relative;
-        left: 1.4em;
+        margin: 0;
+        padding: 0;
     }
        
+    aside
+    {
+        margin-left: 1.5em;
+    }
     .photos 
     {
         display: grid;
@@ -101,7 +105,9 @@ body
     nav ul 
     {
         display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -128,6 +134,12 @@ body
         float: left;
         width: 200px;
         padding-right: 0.5em;
+    }
+
+    ul
+    {
+        margin: 0;
+        padding: 0;
     }
        
     .photos 
