@@ -122,13 +122,12 @@ body
         display: grid;
     }
 
-    article p
+    article h1
     {
         margin-left: 0.5em;
-        margin-right: 0.5em;
     }
 
-    article h1
+    article p
     {
         margin-left: 0.5em;
         margin-right: 0.5em;
