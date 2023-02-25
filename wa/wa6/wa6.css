@@ -120,6 +120,10 @@ body
     .grid 
     {
         display: grid;
+    }
+
+    article
+    {
         margin: 0.5em auto;
     }
 
@@ -129,6 +133,11 @@ body
         width: 200px;
     }
 
+    aside
+    {
+        margin: 0.5em auto;
+    }
+    
     ul
     {
         margin: 0;
