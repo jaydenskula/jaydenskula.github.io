@@ -121,7 +121,7 @@ body
     .grid 
     {
         display: grid;
-        margin: 0 auto;
+        margin: 0.5em auto;
     }
 
     .feature 
