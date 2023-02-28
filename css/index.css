@@ -1,0 +1,17 @@
+body
+{
+    background-color: grey;
+    font-size: 10px;
+}
+
+/* DESKTOP */
+@media (min-width: 500px)
+{
+
+}
+
+/* MOBILE */
+@media (max-width: 500px)
+{
+    
+}
