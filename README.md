@@ -13,7 +13,7 @@
 - [ICA6a](https://jaydenskula.github.io/ica/ica6/ica6-part1.html)
 - [ICA6b](https://jaydenskula.github.io/ica/ica6/ica6-part2.html)
 - [ICA6c](https://jaydenskula.github.io/ica/ica6/ica6-part3.html)
-- ICA7
+- [ICA7](https://jaydenskula.github.io/ica/ica7.html)
 - ICA8
 - ICA9
 - ICA10
