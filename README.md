@@ -1,7 +1,7 @@
 # jaydenskula.github.io
 ## Projects
 - [HTML](https://jaydenskula.github.io/html-midterm/page5.html)
-- CSS
+- [CSS](https://jaydenskula.github.io)
 - JS
 ## In-Class Assignments
 - [ICA1](https://jaydenskula.github.io/ica/ica1.pdf)
@@ -29,7 +29,7 @@
 - [WA4](https://jaydenskula.github.io/wa/wa4.html)
 - [WA5](https://jaydenskula.github.io/wa/wa5.html)
 - [WA6](https://jaydenskula.github.io/wa/wa6/wa6.html)
-- WA7
+- [WA7](https://jaydenskula.github.io/wa/wa7.html)
 - WA8
 - WA9
 - WA10
