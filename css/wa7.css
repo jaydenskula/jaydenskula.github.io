@@ -44,25 +44,38 @@ nav a:hover
 img{
     margin: 3em;
     width:30vw;
-    height: 30vh;
+    height: auto;
 }
 
 #red-ball{
-    background-color: crimson;
+    background-color: lightseagreen;
     width: 20px;
     height:20px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    transition-duration: 0.5s;
     animation-name: red-ball-animation;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
+}
+
+#red-ball:hover
+{
+    width: 60px;
+    height: 60px;
+}
+
+#red-ball p
+{
+    font-size: 2em;
+    font-style: italic;
 }
 
 @keyframes red-ball-animation
 {
-    0% {background-color: red; top: 0px; left: 0px}
-    25% {background-color: orange; top: 200px; left: 0px}
-    50% {background-color: yellow; top: 400px; left: 0px}
-    75% {background-color: yellowgreen; top: 600px; left: 0px}
-    100% {background-color: green; top: 0px; left: 0px;}
+    0% {background-color: lightseagreen; top: 0px; left: 0px}
+    25% {background-color: blueviolet; top: 200px; left: 0px}
+    50% {background-color: purple; top: 400px; left: 0px}
+    75% {background-color: palevioletred; top: 600px; left: 0px}
+    100% {background-color: lightseagreen; top: 0px; left: 0px;}
 }
