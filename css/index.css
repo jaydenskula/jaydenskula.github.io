@@ -10,7 +10,7 @@ article
     width: 85%;
     margin: auto;
     background-color: whitesmoke;
-    border: 5px solid rgb(31, 87, 87);
+    border: 5px solid rgb(12, 39, 39);
 }
 
 .title
@@ -86,14 +86,13 @@ ul
 
 #externalLinks
 {
-    position: absolute;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #externalLinks a
 {
-    width: 12.5em;
+    width: 100%;
     background-color: rgb(31, 87, 87);
     border: 1px solid rgb(31, 87, 87);
     color: whitesmoke;
