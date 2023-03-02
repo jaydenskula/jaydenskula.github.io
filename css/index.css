@@ -64,12 +64,6 @@ ul
     font-size: 1.5em;
 }
 
-/* DESKTOP */
-@media (min-width: 500px)
-{
-
-}
-
 /* MOBILE */
 @media (max-width: 500px)
 {
