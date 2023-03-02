@@ -1,7 +1,33 @@
 body
 {
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     font-size: 10px;
+    font-family: 'Bahnschrift';
+}
+
+nav
+{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a
+{
+    color: white;
+}
+
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    list-style: square;
 }
 
 /* DESKTOP */
