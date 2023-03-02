@@ -10,12 +10,13 @@ article
     width: 85%;
     margin: auto;
     background-color: whitesmoke;
-    border: 5px solid rgb(15, 15, 15);
+    border: 5px solid rgb(31, 87, 87);
 }
 
 .title
 {
     margin-left: 30px;
+    margin-right: 30px;
     color:rgb(39, 39, 39);
     font-size: 5em;
 }
@@ -83,16 +84,21 @@ ul
     font-size: 1.5em;
 }
 
+#externalLinks
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
 #externalLinks a
 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    background-color:rgb(39, 39, 39);
-    border: 1px solid rgb(39, 39, 39);
-    padding: 1em;
+    width: 12.5em;
+    background-color: rgb(31, 87, 87);
+    border: 1px solid rgb(31, 87, 87);
     color: whitesmoke;
-    font-size: 2em;
+    text-align: center;
+    font-size: 1.5em;
     text-decoration: none;
     transition: 0.5s ease-out;
 }
