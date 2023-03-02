@@ -1,26 +1,48 @@
-body{
+body
+{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
-nav{
-    height: 50vh;
-    display:flex;
+
+h1
+{
+    font-size: 5em;
+    color: rgb(39, 39, 39);
+}
+
+nav
+{
+    height: 3em;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height:20px;
-    background-color: blueviolet;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid rgb(39, 39, 39);
 }
+
 nav a{
-    width:10vw;
+    width: 15vw;
+    font-size: 2em;
+    line-height: 1.5em;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color: white;
+    transition: ease-out;
+    transition-duration: 1s;
 }
 
+nav a:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 39, 39);
+}
 
 img{
+    margin: 3em;
     width:30vw;
     height: 30vh;
 }
@@ -30,7 +52,17 @@ img{
     width: 20px;
     height:20px;
     border-radius: 50%;
-    position: absolute;
-    left:5vw;
-    top:0;
+    position: relative;
+    animation-name: red-ball-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes red-ball-animation
+{
+    0% {background-color: red; top: 0px; left: 0px}
+    25% {background-color: orange; top: 200px; left: 0px}
+    50% {background-color: yellow; top: 400px; left: 0px}
+    75% {background-color: yellowgreen; top: 600px; left: 0px}
+    100% {background-color: green; top: 0px; left: 0px;}
 }
