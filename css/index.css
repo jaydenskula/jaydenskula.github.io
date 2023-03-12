@@ -7,22 +7,22 @@ body
 
 .title
 {
-    margin: 2em 10em;
+    margin: 2em 20.5em;
 }
 
 .title h1
 {
-    font-size: 5em;
+    font-size: 5.5em;
     color: rgb(39, 39, 39);
-    text-align: center;
+    text-align: left;
     font-weight: 200;
 }
 
 nav
 {
-    margin: 2em 10em;
+    margin: 2em 20.5em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 3em;
 }
 
@@ -36,7 +36,7 @@ nav a
 
 nav a:hover
 {
-    color: rgb(160, 160, 160);
+    color: rgb(211, 105, 105);
 }
 
 article
@@ -46,30 +46,35 @@ article
     background-color: whitesmoke;
     box-shadow: 0.5em 0.5em rgb(39, 39, 39);
     border: 0.5px solid rgb(39, 39, 39);
+    transition: 0.5s ease-out;
+}
+
+article:hover
+{
+    box-shadow: 0.5em 0.5em rgb(211, 105, 105);
 }
 
 #aboutMe
 {
-    margin: 2em 10em;
+    margin: 2em 20em;
     display: flex;
 }
 
 #academics
 {
-    margin: 2em 10em;
+    margin: 2em 20em;
     display: flex;
 }
 
 #gallery
 {
-    margin: 2em 12em;
+    margin: 2em 35em;
 }
 
 .row
 {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
 }
   
 .column
@@ -87,13 +92,13 @@ article
 #contact
 {
     display: flex;
-    margin: 2em 10em;
+    margin: 2em 20em;
 }
 
 #externalLinks
 {
     display: flex;
-    margin: 2em 10.5em;
+    margin: 2em 20em;
     justify-content: space-evenly;
 }
 
@@ -144,6 +149,7 @@ p
 
 ul
 {
+    margin-left: 30px;
     list-style: square;
     font-size: 2em;
 }
