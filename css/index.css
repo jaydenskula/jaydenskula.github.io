@@ -5,28 +5,25 @@ body
     font-family: 'Microsoft Yi Baiti';
 }
 
-article
-{
-    width: 75%;
-    margin: 3em auto;
-    background-color: whitesmoke;
-    box-shadow: 0.5em 0.5em 1em rgb(39, 39, 39);
-    border: 0.5px solid rgb(39, 39, 39);
-}
-
 .title
 {
-    font-size: 5.5em;
+    margin: auto;
+    width: 35em;
+}
+
+.title h1
+{
+    font-size: 3.5em;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-weight: 200;
 }
 
 nav
 {
-    width: 75%;
-    margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 3em;
+    justify-content: space-around;
+    margin-bottom: 3em;
 }
 
 nav a
@@ -42,10 +39,77 @@ nav a:hover
     color: rgb(160, 160, 160);
 }
 
+article
+{
+    width: 100%;
+    margin: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0.5em 0.5em rgb(39, 39, 39);
+    border: 0.5px solid rgb(39, 39, 39);
+}
+
+#aboutMe
+{
+    display: flex;
+}
+
+#academics
+{
+    display: flex;
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column
+{
+    flex: 50%;
+    max-width: 50%;
+}
+  
+.column img 
+{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#contact
+{
+    display: flex;
+}
+
+#externalLinks
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#externalLinks a
+{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border: 0.5px solid rgb(39, 39, 39);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+#externalLinks a:hover
+{
+    background-color: whitesmoke;
+    color:rgb(39, 39, 39);
+}
+
 h2
 {
     font-size: 3.5em;
-    margin-left: 30px;
     color:rgb(39, 39, 39);
 }
 
@@ -67,37 +131,13 @@ p
 {
     margin-left: 30px;
     color:rgb(39, 39, 39);
+    font-size: 2em;
 }
 
 ul
 {
-    margin-left: 30px;
     list-style: square;
-    font-size: 1.5em;
-}
-
-#externalLinks
-{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#externalLinks a
-{
-    width: 100%;
-    background-color: rgb(39, 39, 39);
-    border: 0.5px solid rgb(39, 39, 39);
-    color: whitesmoke;
-    text-align: center;
-    font-size: 1.5em;
-    text-decoration: none;
-    transition: 0.5s ease-out;
-}
-
-#externalLinks a:hover
-{
-    background-color: whitesmoke;
-    color:rgb(39, 39, 39);
+    font-size: 2em;
 }
 
 /* MOBILE */
