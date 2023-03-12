@@ -7,12 +7,12 @@ body
 
 .title
 {
-    margin: auto;
+    margin: 2em 10em;
 }
 
 .title h1
 {
-    font-size: 3.5em;
+    font-size: 5em;
     color: rgb(39, 39, 39);
     text-align: center;
     font-weight: 200;
@@ -20,6 +20,7 @@ body
 
 nav
 {
+    margin: 2em 10em;
     display: flex;
     justify-content: space-around;
     margin-bottom: 3em;
@@ -49,15 +50,22 @@ article
 
 #aboutMe
 {
+    margin: 2em 10em;
     display: flex;
 }
 
 #academics
 {
+    margin: 2em 10em;
     display: flex;
 }
 
-.row 
+#gallery
+{
+    margin: 2em 10em;
+}
+
+.row
 {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +80,6 @@ article
   
 .column img 
 {
-    margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
@@ -80,11 +87,13 @@ article
 #contact
 {
     display: flex;
+    margin: 2em 10em;
 }
 
 #externalLinks
 {
     display: flex;
+    margin: 2em 10.5em;
     justify-content: space-evenly;
 }
 
