@@ -156,7 +156,7 @@ ul
 /* MOBILE */
 @media (max-width: 500px)
 {
-    .mainContentBox
+    body
     {
         margin-left: 0.5em;
         margin-right: 0.5em;
