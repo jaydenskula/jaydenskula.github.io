@@ -1,27 +1,33 @@
 body
 {
-    background-color: whitesmoke;
     font-size: 10px;
     font-family: 'Microsoft Yi Baiti';
     margin-left: 20em;
     margin-right: 20em;
-    background: linear-gradient(to bottom, rgba(211,105,105,0.3), rgba(211,105,105,0) 20%, rgba(211,105,105,0) 80%, rgba(211,105,105,0.3))
+    background: url("/img/css-midterm/bg_asset_2.png") no-repeat top, url("/img/css-midterm/bg_asset_3.png") no-repeat bottom, whitesmoke;
+}
+
+.body
+{
+    width: 100%;
+    margin: 10px;
+    background:  whitesmoke;
+    box-shadow: 0.5em 0.5em 0.5em rgb(11, 22, 44);
+    border: 0.5px solid rgb(11, 22, 44);
+    transition: 0.5s ease-out;
 }
 
 .title
 {
-    margin: 2em auto;
-    width: 9vw;
-    height: 9vw;
-    border: 0.5px solid rgb(39, 39, 39);
+    background-color:rgb(11, 22, 44);
+    height: 65px;
+    padding-left: 5.5em;
 }
 
 .title h1
 {
-    font-size: 5em;
-    line-height: 1.5em;
-    color: rgb(39, 39, 39);
-    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
     font-weight: 200;
 }
 
@@ -29,13 +35,13 @@ nav
 {
     margin: 2em 5.5em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 3em;
 }
 
 nav a
 {
-    color:rgb(39, 39, 39);
+    color:rgb(11, 22, 44);
     font-size: 2.5em;
     text-decoration: none;
     transition: 0.5s ease-out;
@@ -43,22 +49,22 @@ nav a
 
 nav a:hover
 {
-    color: rgb(211, 105, 105);
+    color: rgb(75, 75, 75);
 }
 
 article
 {
     width: 100%;
     margin: 10px;
-    background: url("/img/css-midterm/bg_asset_1.jpg") no-repeat center, whitesmoke;
-    box-shadow: 0.5em 0.5em rgb(39, 39, 39);
-    border: 0.5px solid rgb(39, 39, 39);
+    background: whitesmoke;
+    box-shadow: 0.5em 0.5em rgb(11, 22, 44);
+    border: 0.5px solid rgb(11, 22, 44);
     transition: 0.5s ease-out;
 }
 
 article:hover
 {
-    box-shadow: 0.5em 0.5em rgb(211, 105, 105);
+    box-shadow: 0.5em 0.5em rgb(75, 75, 75);
 }
 
 #aboutMe
@@ -75,25 +81,27 @@ article:hover
 
 #gallery
 {
-    margin: 2em 25em;
+    margin: 2em 20em;
 }
 
 .row
 {
     display: flex;
-    flex-wrap: wrap;
 }
   
 .column
 {
     flex: 50%;
     max-width: 50%;
+    margin: 15px;
 }
   
 .column img 
 {
-    vertical-align: middle;
-    width: 100%;
+    border: 2px solid rgb(11, 22, 44);
+    box-shadow: 0.5em 0.5em rgb(11, 22, 44);
+    max-width: 100%;
+    margin: 15px;
 }
 
 #contact
@@ -112,45 +120,32 @@ article:hover
 #externalLinks a
 {
     width: 100%;
-    background-color: rgb(39, 39, 39);
-    border: 0.5px solid rgb(39, 39, 39);
-    color: whitesmoke;
+    color: rgb(11, 22, 44);
     text-align: center;
     font-size: 2.5em;
+    height: 1.25em;
+    border: 0.5px solid whitesmoke;
     text-decoration: none;
-    transition: 0.5s ease-out;
+    transition: 0.5s
 }
 
 #externalLinks a:hover
 {
-    background-color: whitesmoke;
-    color:rgb(39, 39, 39);
+    border: 0.5px solid rgb(11, 22, 44);
 }
 
 h2
 {
-    font-size: 3.5em;
-    color:rgb(39, 39, 39);
-}
-
-h3
-{
     font-size: 2.75em;
+    font-weight: 200;
     margin-left: 30px;
-    color:rgb(39, 39, 39);
-}
-
-h4
-{
-    font-size: 2em;
-    margin-left: 30px;
-    color: rgb(79, 79, 79);
+    color:rgb(11, 22, 44);
 }
 
 p
 {
     margin-left: 30px;
-    color:rgb(39, 39, 39);
+    color:rgb(11, 22, 44);
     font-size: 2em;
 }
 
