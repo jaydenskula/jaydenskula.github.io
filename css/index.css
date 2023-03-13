@@ -49,6 +49,11 @@ nav a:hover
     color: rgb(75, 75, 75);
 }
 
+hr
+{
+    border-top: 1px solid rgb(11, 22, 44);
+}
+
 article
 {
     width: 100%;
@@ -136,12 +141,14 @@ h2
     font-size: 2.75em;
     font-weight: 200;
     margin-left: 30px;
+    margin-right: 30px;
     color:rgb(11, 22, 44);
 }
 
 p
 {
     margin-left: 30px;
+    margin-right: 30px;
     color:rgb(11, 22, 44);
     font-size: 2em;
 }
@@ -149,6 +156,7 @@ p
 ul
 {
     margin-left: 30px;
+    margin-right: 30px;
     list-style: square;
     font-size: 2em;
 }
