@@ -190,7 +190,6 @@ ul
 
     nav
     {
-        display: flex;
         flex-direction: column;
     }
 
@@ -233,5 +232,15 @@ ul
     #externalLinks
     {
         flex-direction: column;
+    }
+
+    p
+    {
+        font-weight: 200;
+    }
+
+    ul
+    {
+        font-weight: 200;
     }
 }
