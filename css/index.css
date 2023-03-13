@@ -2,15 +2,18 @@ body
 {
     font-size: 10px;
     font-family: 'Microsoft Yi Baiti';
-    margin-left: 20em;
-    margin-right: 20em;
     background: url("/img/css-midterm/bg_asset_2.png") no-repeat top, url("/img/css-midterm/bg_asset_3.png") no-repeat bottom, whitesmoke;
 }
 
 .mainContentBox
 {
+    margin-left: 20em;
+    margin-right: 20em;
     box-shadow: 0.5em 0.5em 0.5em rgb(11, 22, 44);
-    border: 1.5px solid rgb(11, 22, 44);
+    border-left: 1.5px solid rgb(11, 22, 44);
+    border-right: 1.5px solid rgb(11, 22, 44);
+    border-top: 1.5px solid whitesmoke;
+    border-bottom: 1.5px solid rgb(11, 22, 44);
     background: whitesmoke;
 }
 
@@ -18,7 +21,9 @@ body
 {
     background:linear-gradient(to right, rgb(11,22,44), rgba(11,22,44,0.5) 50%, rgba(11,22,44,0));
     height: 65px;
-    padding-left: 5.5em;
+    padding-left: 9em;
+    margin-left: 17em;
+    margin-right: 17em;
 }
 
 .title h1
@@ -83,7 +88,8 @@ article:hover
 
 #gallery
 {
-    margin: 2em 20em;
+    margin-left: 15em;
+    margin-right: 15em;
 }
 
 .row
@@ -95,15 +101,15 @@ article:hover
 {
     flex: 50%;
     max-width: 50%;
-    margin: 15px;
+    margin: 2.5em;
 }
   
 .column img 
 {
     border: 2px solid rgb(11, 22, 44);
-    box-shadow: 0.5em 0.5em rgb(11, 22, 44);
+    vertical-align: middle;
+    margin-bottom: 2.5em;
     max-width: 100%;
-    margin: 15px;
 }
 
 #contact
@@ -166,7 +172,13 @@ ul
 {
     body
     {
-        margin: 0;
+        max-width: 500px;
+    }
+
+    .mainContentBox
+    {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 
     .title
@@ -178,6 +190,12 @@ ul
     {
         display: flex;
         flex-direction: column;
+    }
+
+    article
+    {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 
     #aboutMe
