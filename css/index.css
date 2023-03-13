@@ -163,12 +163,6 @@ ul
         justify-content: center;
     }
 
-    .column 
-    {
-        flex: 100%;
-        max-width: 100%;
-    }
-
     #aboutMe
     {
         margin: 5px auto;
@@ -179,6 +173,12 @@ ul
     {
         margin: 5px auto;
         flex-direction: column;
+    }
+
+    .column 
+    {
+        flex: 100%;
+        max-width: 100%;
     }
 
     #contact
