@@ -52,7 +52,7 @@ nav a:hover
 article
 {
     width: 100%;
-    margin: 10px;
+    margin: 0.5em;
     background: whitesmoke;
     box-shadow: 0.5em 0.5em rgb(11, 22, 44);
     border: 0.5px solid rgb(11, 22, 44);
