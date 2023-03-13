@@ -170,4 +170,19 @@ ul
         flex: 100%;
         max-width: 100%;
     }
+
+    #aboutMe
+    {
+        flex-direction: column;
+    }
+
+    #academics
+    {
+        flex-direction: column;
+    }
+
+    #externalLinks
+    {
+        flex-direction: column;
+    }
 }
