@@ -174,19 +174,19 @@ ul
 
     #aboutMe
     {
-        margin: 0.2em 0.5em;
+        margin: 0.5em auto;
         flex-direction: column;
     }
 
     #academics
     {
-        margin: 0.2em 0.5em;
+        margin: 0.5em auto;
         flex-direction: column;
     }
 
     #gallery
     {
-        margin: 0.2em 0.5em;
+        margin: 0.5em auto;
     }
 
     .column 
@@ -197,13 +197,13 @@ ul
 
     #contact
     {
-        margin: 0.2em 0.5em;
+        margin: 0.5em auto;
         flex-direction: column;
     }
 
     #externalLinks
     {
-        margin: 0.2em 0.5em;
+        margin: 0.5em auto;
         flex-direction: column;
     }
 }
