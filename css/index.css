@@ -16,7 +16,7 @@ body
 
 .title
 {
-    background-color:rgb(11, 22, 44);
+    background:linear-gradient(to right, rgb(11,22,44), rgba(11,22,44,0.5) 50%, rgba(11,22,44,0));
     height: 65px;
     padding-left: 5.5em;
 }
