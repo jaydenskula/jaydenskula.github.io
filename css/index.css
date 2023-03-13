@@ -180,12 +180,6 @@ ul
         flex-direction: column;
     }
 
-    article
-    {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
-
     #aboutMe
     {
         margin: 0.5em auto;
