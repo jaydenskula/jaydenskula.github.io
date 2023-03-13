@@ -171,21 +171,25 @@ ul
 
     #aboutMe
     {
+        margin: 5px auto;
         flex-direction: column;
     }
 
     #academics
     {
+        margin: 5px auto;
         flex-direction: column;
     }
 
     #contact
     {
+        margin: 5px auto;
         flex-direction: column;
     }
 
     #externalLinks
     {
+        margin: 5px auto;
         flex-direction: column;
     }
 }
