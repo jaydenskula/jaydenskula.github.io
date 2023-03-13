@@ -7,13 +7,10 @@ body
     background: url("/img/css-midterm/bg_asset_2.png") no-repeat top, url("/img/css-midterm/bg_asset_3.png") no-repeat bottom, whitesmoke;
 }
 
-.body
+.mainContentBox
 {
-    width: 100%;
-    margin: 10px;
-    background:  whitesmoke;
     box-shadow: 0.5em 0.5em 0.5em rgb(11, 22, 44);
-    border: 0.5px solid rgb(11, 22, 44);
+    border: 1.5px solid rgb(11, 22, 44);
     transition: 0.5s ease-out;
 }
 
