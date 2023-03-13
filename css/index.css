@@ -204,6 +204,6 @@ ul
     #externalLinks
     {
         margin: 0.2em 0.5em;
-        justify-content: space-around;
+        flex-direction: column;
     }
 }
