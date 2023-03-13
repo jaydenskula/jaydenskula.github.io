@@ -178,6 +178,11 @@ ul
         flex-direction: column;
     }
 
+    #gallery
+    {
+        margin: 2px 5px;
+    }
+    
     .column 
     {
         flex: 100%;
