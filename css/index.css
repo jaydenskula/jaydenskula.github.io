@@ -163,6 +163,7 @@ ul
     {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .column 
@@ -181,8 +182,14 @@ ul
         flex-direction: column;
     }
 
+    #contact
+    {
+        flex-direction: column;
+    }
+
     #externalLinks
     {
         flex-direction: column;
+        justify-content: center;
     }
 }
