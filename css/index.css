@@ -155,9 +155,14 @@ ul
 /* MOBILE */
 @media (max-width: 500px)
 {
+    body
+    {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
     .title
     {
-        padding-left: 5px;
+        padding-left: 0.5em;
     }
 
     nav
@@ -168,21 +173,21 @@ ul
 
     #aboutMe
     {
-        margin: 2px 5px;
+        margin: 0.2em 0.5em;
         flex-direction: column;
     }
 
     #academics
     {
-        margin: 2px 5px;
+        margin: 0.2em 0.5em;
         flex-direction: column;
     }
 
     #gallery
     {
-        margin: 2px 5px;
+        margin: 0.2em 0.5em;
     }
-    
+
     .column 
     {
         flex: 100%;
@@ -191,13 +196,13 @@ ul
 
     #contact
     {
-        margin: 2px 5px;
+        margin: 0.2em 0.5em;
         flex-direction: column;
     }
 
     #externalLinks
     {
-        margin: 2px 5px;
+        margin: 0.2em 0.5em;
         justify-content: space-around;
     }
 }
