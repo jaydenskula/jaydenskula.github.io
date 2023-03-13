@@ -158,8 +158,7 @@ ul
 {
     body
     {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+        margin: 0;
     }
 
     .title
@@ -171,6 +170,12 @@ ul
     {
         display: flex;
         flex-direction: column;
+    }
+
+    article
+    {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 
     #aboutMe
