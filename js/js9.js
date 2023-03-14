@@ -1,11 +1,21 @@
-function createParagraph() {
-    const para = document.createElement("p");
-    para.textContent = "You clicked the button!";
-    document.body.appendChild(para);
-  }
-  
-  const buttons = document.querySelectorAll("button");
-  
-  for (const button of buttons) {
-    button.addEventListener("click", createParagraph);
-  }
+function changeButton()
+{
+    // console.log("The button has been pressed");
+    button.textContent = "TEST";
+    button.style.backgroundColor = "blue";
+    button.style.border = "2px solid purple";
+}
+
+function checkGuess()
+{
+    alert(userGuess.value);
+}
+
+console.log("Hello, World!");
+let button = document.querySelector("#button");
+// console.log(button);
+button.addEventListener("click", changeButton);
+
+let guessButton = document.querySelector(".guessSubmit");
+let userGuess = document.querySelector(".guessField");
+guessButton.addEventListener("click", checkGuess);
