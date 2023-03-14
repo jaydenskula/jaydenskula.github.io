@@ -3,7 +3,7 @@ function changeButton()
     // console.log("The button has been pressed");
     button.textContent = "TEST";
     button.style.backgroundColor = "blue";
-    button.style.border = "2px solid purple";
+    button.style.border = "5px solid purple";
 }
 
 function checkGuess()
