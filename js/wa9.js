@@ -2,22 +2,19 @@ const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
-function randomValueFromArray(array){
-  const random = Math.floor(Math.random()*array.length);
-  return array[random];
+function randomValueFromArray(array)
+{
+    const random = Math.floor(Math.random()*array.length);
+    return array[random];
 }
 
-let storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
+let storyText = "It was 56 fahrenheit outside, so :insertx: decided to go outside for once. When they got to :inserty:, they T-posed to assert dominance, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: was carrying a 400-pound pickle, it was just an average day.";
 
-let insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
+let insertX = ["Jesus Christ", "Our Lord and Savior", "Mr. President"];
+let insertY = ["Mars", "Twitter HQ", "The Container Store"];
+let insertZ = ["became one with the dirt", "turned into a fish", "photosynthesized like a plant"];
 
-let insertY = ["the soup kitchen", "Disneyland", "the White House"];
-
-let insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
-
-randomize.addEventListener("click", result);
-
-function result() 
+function result()
 {
     let newStory = storyText;
     let xItem = randomValueFromArray(insertX);
@@ -37,9 +34,11 @@ function result()
     {
         const weight = `${Math.round(300*0.0714286)} stone`;
         const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
-        newStory = newStory.replaceAll("94 fahrenheit", temperature);
-        newStory = newStory.replaceAll("300 pounds", weight);
+        newStory = newStory.replaceAll("56 fahrenheit", temperature);
+        newStory = newStory.replaceAll("400-pound", weight);
     }
     story.textContent = newStory;
     story.style.visibility = 'visible';
 }
+
+randomize.addEventListener("click", result);
