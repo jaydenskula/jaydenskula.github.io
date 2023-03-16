@@ -80,3 +80,13 @@ function changeButton()
 
 let button = document.querySelector(".button");
 button.addEventListener("click", changeButton);
+
+function changeButton2()
+{
+    button2.style.backgroundColor = "White";
+    button2.style.color = "black";
+    button2.textContent = "Watch Arcane on Netflix it's really fucking good I promise";
+}
+
+let button2 = document.querySelector(".button2");
+button2.addEventListener("click", changeButton2);
