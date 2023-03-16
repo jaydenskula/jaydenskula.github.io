@@ -70,3 +70,13 @@ function checkGuess()
 let guessButton = document.querySelector(".guessSubmit");
 let userGuess = document.querySelector(".guessField");
 guessButton.addEventListener("click", checkGuess);
+
+function changeButton()
+{
+    button.style.backgroundColor = "white";
+    button.style.color = "black";
+    button.textContent = "Hello!";
+}
+
+let button = document.querySelector(".button");
+button.addEventListener("click", changeButton);
