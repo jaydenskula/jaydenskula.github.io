@@ -15,7 +15,7 @@
 - [ICA6c](https://jaydenskula.github.io/ica/ica6/ica6-part3.html)
 - [ICA7](https://jaydenskula.github.io/ica/ica7.html)
 - ICA8
-- ICA9
+- [ICA9](https://jaydenskula.github.io/ica/ica9.html)
 - ICA10
 - ICA11
 - ICA12
