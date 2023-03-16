@@ -10,7 +10,7 @@ function randomValueFromArray(array)
 
 let storyText = "It was 56 fahrenheit outside, so :insertx: decided to go outside for once. When they got to :inserty:, they T-posed to assert dominance, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: was carrying a 400-pound pickle, it was just an average day.";
 
-let insertX = ["Jesus Christ", "Our Lord and Savior", "Mr. President"];
+let insertX = ["Jesus Christ", "Elon Musk", "Mr. President"];
 let insertY = ["Mars", "Twitter HQ", "The Container Store"];
 let insertZ = ["became one with the dirt", "turned into a fish", "photosynthesized like a plant"];
 
