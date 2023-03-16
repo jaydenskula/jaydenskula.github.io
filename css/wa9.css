@@ -1,24 +1,29 @@
-body {
-    font-family: helvetica, sans-serif;
+body 
+{
+    font-family: 'Bahnschrift';
     width: 350px;
-  }
+}
 
-  label {
+label 
+{
     font-weight: bold;  
-  }
+}
 
-  div {
+div 
+{
     padding-bottom: 20px;
-  }
+}
 
-  input[type="text"] {
+input[type="text"] 
+{
     padding: 5px;
     width: 150px;
-  }
+}
 
-  p {
-    background: #FFC125;
-    color: #5E2612;
+p 
+{
+    background: #cfe5ea;
+    color: #1a0a27;
     padding: 10px;
     visibility: hidden;
-  }
+}
