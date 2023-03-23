@@ -14,7 +14,6 @@ const alts = {
     'bird3.jpg' : 'A black and white bird',
     'bird4.jpg' : 'A tufted tit-tyrant',
     'bird5.jpg': 'A sleeping brown dove',
-    'bird6.jpg': 'A rosefinch'
 }
 
 /* Looping through images */
