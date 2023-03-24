@@ -5,22 +5,22 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ['bird.jpg', `bird2.jpg`, `bird3.jpg`, `bird4.jpg`, `bird5.jpg`];
+const images = ['pic1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
 
 /* Declaring the alternative text for each image file */
 const alts = { 
-    'bird.jpg' : 'An orange and grey bird',
-    'bird2.jpg' : 'A bird who has a black tail and white spots.',
-    'bird3.jpg' : 'A black and white bird',
-    'bird4.jpg' : 'A tufted tit-tyrant',
-    'bird5.jpg': 'A sleeping brown dove',
+    'pic.jpg' : "Two small white dogs laying on a messy bed.",
+    'pic2.jpg' : "A cat looking out a window while its raining.",
+    'pic3.jpg' : "A small yellow, white, and black bird.",
+    'pic4.jpg' : "A white dog hugging a brown dog.",
+    'pic5.jpg': "A cream-colored cat.",
 }
 
 /* Looping through images */
 for (const image of images) 
 {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', `/img/${image}`);
+    newImage.setAttribute('src', `imgages/${image}`);
     newImage.setAttribute('alt', alts[image]);
     thumbBar.appendChild(newImage);
     
