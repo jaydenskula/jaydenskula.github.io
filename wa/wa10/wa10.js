@@ -9,7 +9,7 @@ const images = ['pic1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
 
 /* Declaring the alternative text for each image file */
 const alts = { 
-    'pic.jpg' : "Two small white dogs laying on a messy bed.",
+    'pic1.jpg' : "Two small white dogs laying on a messy bed.",
     'pic2.jpg' : "A cat looking out a window while its raining.",
     'pic3.jpg' : "A small yellow, white, and black bird.",
     'pic4.jpg' : "A white dog hugging a brown dog.",
@@ -17,7 +17,7 @@ const alts = {
 }
 
 /* Looping through images */
-for (const image of images) 
+for (const image of images)
 {
     const newImage = document.createElement('img');
     newImage.setAttribute('src', `imgages/${image}`);
