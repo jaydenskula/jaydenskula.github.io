@@ -7,20 +7,58 @@
     <title>Weekly Assignment 11</title>
     <link rel="stylesheet" href="/css/wa11.css">
 </head>
-<body>
-    <div class="app">
-        <header>Random Christmas Trivia</header>
-        <section class="quotes">
-          <div class="quote-text" id="js-quote-text"></div>
-        </section>
-        <section class="controls" >
-          <button type="button" id="js-new-quote" class="new-quote button">
-            Generate a new quote
-          </button>
-          <a class="twitter button" id="js-tweet" target="_blank" rel="noreferrer">Tweet it!</a>
-        </section>
+<body id="body">
+    <div>
+      <!-- Quote Box -->
+        <div class="block text-center">
+        <!-- Front part of the Quote Box -->
+        <div class = "quote-box block__main block__front">
+            <!-- Quote to be Displayed Here -->
+            <span class = "quote">      
+                <!-- Hyphen is Displayed  -->
+                <i class="fas fa-2x fa-quote-left"></i>
+                <!-- Quote Text -->
+                <span class = "text">
+                    Quote To be Displayed Here
+                </span>
+            </span>
+                
+            <!-- Author to be Displayed Here -->
+            <div class = "author">
+                Author to be Displayed Here
+            </div>
+            <a  class = "new-quote btn btn-default" 
+                onclick="newQuote()">New Quote</a>
+        </div>
+      
+        <!-- Back Part of the Quote Box -->
+        <div class = "quote-box block__main block__back">
+      
+          <!-- Quote to be Displayed Here -->
+          <span class = "quote">
+              
+            <!-- Hyphen is Displayed  -->
+            <i class="fas fa-2x fa-quote-left"></i>
+      
+            <!-- Quote Text -->
+            <span class = "text">
+            Quote To be Displayed Here
+            </span>
+      
+          </span>
+            
+          <!-- Author to be Displayed Here -->
+          <div class = "author">
+            Author to be Displayed Here
+          </div>
+            <!-- Button -->
+            <a  class = "new-quote btn btn-default " 
+                onclick="newQuote()">New Quote</a>
+        </div>
+      </div>
     </div>
-
+        
+    <!-- Linking Your JavaScript File -->
     <script src="/js/wa11.js"></script>
 </body>
 </html>
