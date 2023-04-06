@@ -1,31 +1,90 @@
-const url = "https://trivia.cyberwisp.com/getrandomchristmasquestion";
-const quoteDisplay = document.querySelector("#js-quote-text");
+// Global Variable used to store the quotes
+// fetched from the API
+var data;
+let front = true;
 
-function getQuote()
-{
-   fetch(url)
-  // fetch() returns a promise. When we have received a response from the server,
-  // the promise's `then()` handler is called with the response.
-  .then((response) => {
-    // Our handler throws an error if the request did not succeed.
-    if (!response.ok) {
-      throw new Error(`HTTP error: ${response.status}`);
-    }
-    // Otherwise (if the response succeeded), our handler fetches the response
-    // as text by calling response.text(), and immediately returns the promise
-    // returned by `response.text()`.
-    return response.text();
-  })
+// Getting the front and the back author boxes
+const authors = document.querySelectorAll(".author");
 
-  // When response.text() has succeeded, the `then()` handler is called with
-  // the text, and we copy it into the `poemDisplay` box.
-  .then((text) => quoteDisplay.textContent = text)
-  // Catch any errors that might happen, and display a message
-  // in the `poemDisplay` box.
-  .catch((error) => quoteDisplay.textContent = `Could not fetch verse: ${error}`);
+// Getting the front and the back texts
+const texts = document.querySelectorAll(".text");
+
+// Getting the body
+const body = document.getElementById("body");
+
+// Getting the buttons
+const button = document.querySelectorAll(".new-quote");
+
+const blockFront = document.querySelector(".block__front");
+const blockBack = document.querySelector(".block__back");
+
+const authorFront = authors[0];
+const authorBack = authors[1];
+
+const textFront = texts[0];
+const textBack = texts[1];
+
+const buttonFront = button[0];
+const buttonBack = button[1];
+
+
+// An arrow function used to get a quote randomly
+const displayQuote = () =>{
+
+	// Generates a random number between 0
+	// and the length of the dataset
+	let index = Math.floor(Math.random()*data.length);
+
+	// Stores the quote present at the randomly generated index
+	let quote = data[index].text;
+
+	// Stores the author of the respective quote
+	let author = data[index].author;
+
+	// Making the author anonymous if no author is present
+	if(!author){
+		author = "Anonymous"
+	}
+
+	// Replacing the current quote and the author with a new one
+
+	if(front){
+		// Changing the front if back-side is displayed
+		textFront.innerHTML = quote;
+		authorFront.innerHTML = author;
+	}else{
+		// Changing the back if front-side is displayed
+		textBack.innerHTML = quote;
+		authorBack.innerHTML = author;
+	}
+	
+	front = !front;
+
 }
 
-const newQuote = document.querySelector("#js-new-quote");
-newQuote.addEventListener("click", getQuote);
+// Fetching the quotes from the type.fit API using promises
+fetch("https://type.fit/api/quotes")
+	.then(function(response) {
+		return response.json();
+	}) // Getting the raw JSON data
+	.then(function(data) {
 
-getQuote(getQuote);
+		// Storing the quotes internally upon
+		// successful completion of request
+		this.data = data;
+
+		// Displaying the quote When the Webpage loads
+		displayQuote()
+});
+
+
+// Adding an onclick listener for the button
+function newQuote(){
+	
+	// Rotating the Quote Box
+	blockBack.classList.toggle('rotateB');
+	blockFront.classList.toggle('rotateF');
+
+	// Displaying a new quote when the webpage loads
+	displayQuote();
+}
