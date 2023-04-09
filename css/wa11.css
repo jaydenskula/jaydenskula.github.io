@@ -1,0 +1,22 @@
+body
+{
+    font-family: 'Baskerville';
+}
+
+.image
+{
+    margin-bottom: 10px;
+}
+
+.display
+{
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.button
+{
+    background-color: rgb(128, 150, 179);
+    margin-bottom: 10px;
+}
