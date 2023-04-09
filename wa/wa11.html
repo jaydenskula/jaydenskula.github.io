@@ -8,15 +8,25 @@
     <link rel="stylesheet" href="/css/wa11.css">
 </head>
 <body>
-    <div id="image">Photo Here</div>
+    <button type="button" class="showImage">Show Image!</button>
+
+    <div class="display">
+        <p id="setup">Setup Here</p>
+        <p id="delivery">Delivery Here</p>
+    </div>
+
+    <button type="button" class="newJoke">New Joke!</button>
+    <div id="jokesCount"></div>
 
     <div class="display">
         <p id="quote"></p>  
         <h3 id="author"></h3>
     </div>
 
-    <button type="button" class="button">New Quote!</button>
-    <div id="count"></div>
+    <button type="button" class="newQuote">New Quote!</button>
+    <div id="quotesCount"></div>
+
+    <p>I added a counter for how many times the two buttons are clicked. I inserted an image using the fetch() method.</p>
 
     <script src="/js/wa11.js"></script>
 </body>
