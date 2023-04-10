@@ -1,6 +1,8 @@
 body
 {
     font-family: 'Baskerville';
+    width: 70%;
+    margin: auto;
 }
 
 .image
@@ -17,6 +19,6 @@ body
 
 button
 {
-    background-color: rgb(128, 150, 179);
+    background-color: rgb(177, 191, 211);
     margin-bottom: 10px;
 }
