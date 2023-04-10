@@ -33,7 +33,7 @@
 - WA8
 - [WA9](https://jaydenskula.github.io/wa/wa9.html)
 - [WA10](https://jaydenskula.github.io/wa/wa10/wa10.html)
-- WA11
+- [WA11](https://jaydenskula.github.io/wa/wa11.html)
 - WA12
 - WA13
 - WA14
