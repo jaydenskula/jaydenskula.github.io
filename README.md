@@ -40,4 +40,4 @@
 - WA15
 
 ## Weekly Quizzes
-- [Q12](https://jaydenskula.github.io/wa/quiz.html)
+- [Q12](https://jaydenskula.github.io/wa/quiz12.html)
