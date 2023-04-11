@@ -19,8 +19,6 @@
 
     <section class="preview">
 
-
-
     </section>
 
   </body>
@@ -30,7 +28,7 @@
     let para1 = document.createElement('p');
     let para2 = document.createElement('p');
     let motherInfo = ['The mother cats are called'];
-    let kittenInfo = ['f'];
+    let kittenInfo = [];
     const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
 
     fetch(requestURL)
@@ -40,6 +38,7 @@
     function displayCatInfo(catString) {
       let total = 0;
       let male = 0;
+      let female = 0;
 
       // Add your code here
       const catData = JSON.parse(catString);
@@ -47,8 +46,6 @@
       let arraySize = catData.length;
 
       console.log(catData);
-
-      console.log(catData[0].kittens.length);
     
       for(let i = 0; i < arraySize; i++)
       {
@@ -60,16 +57,21 @@
         for(let y = 0; y < catData[i].kittens.length; y++)
         {
             total++;
+            if(catData[i].kittens[y].gender == "m")
+            {
+                male++;
+            }
+            if(catData[i].kittens[y].gender == "f")
+            {
+                female++;
+            }
         }
       }
+      kittenInfo.push("Total", total, "Male", male, "Female", female);
 
+      console.log(male);
+      console.log(female);
       console.log(total);
-
-    
-
-
-
-
 
       // Don't edit the code below here!
       para1.textContent = motherInfo;
