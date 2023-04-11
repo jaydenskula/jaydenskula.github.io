@@ -29,8 +29,8 @@
 
     let para1 = document.createElement('p');
     let para2 = document.createElement('p');
-    let motherInfo = 'The mother cats are called ';
-    let kittenInfo;
+    let motherInfo = ['The mother cats are called'];
+    let kittenInfo = ['f'];
     const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
 
     fetch(requestURL)
@@ -42,10 +42,36 @@
       let male = 0;
 
       // Add your code here
-      JSON.parse(catString);
+      const catData = JSON.parse(catString);
+      const mothers = catData.name;
+      let arraySize = catData.length;
+
+      console.log(catData);
+
+      console.log(catData[0].kittens.length);
+    
+      for(let i = 0; i < arraySize; i++)
+      {
+        motherInfo.push(catData[i].name);
+        if(i == arraySize - 2)
+        {
+            motherInfo.push('and');
+        }
+        for(let y = 0; y < catData[i].kittens.length; y++)
+        {
+            total++;
+        }
+      }
+
+      console.log(total);
+
+    
+
+
+
+
 
       // Don't edit the code below here!
-
       para1.textContent = motherInfo;
       para2.textContent = kittenInfo;
     }
