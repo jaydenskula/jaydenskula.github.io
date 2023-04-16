@@ -92,4 +92,5 @@ function updateSalary()
 }
 
 updateSalary();
+
 //PROBLEM #6
