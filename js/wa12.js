@@ -79,6 +79,17 @@ totalSalary = salary1 + salary2 + salary3 + salary4;
 console.log("Total Salary:" + totalSalary);
 
 //PROBLEM #5
+    let length = (Object.keys(company.employees).length);
+    console.log(length);
 
+function updateSalary()
+{
+
+    for(let i = 0; i < length; i++)
+    {
+        console.log("Hello");
+    }
+}
+
+updateSalary();
 //PROBLEM #6
-  
