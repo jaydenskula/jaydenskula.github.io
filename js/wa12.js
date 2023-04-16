@@ -45,6 +45,22 @@ let company =
 console.log(company);
 
 //PROBLEM #3
+let employee4 =
+{
+    "first_name": "Anna",
+    "department": "Tech",
+    "designation": "Executive",
+    "salary": 25600,
+    "raise_eligible": false
+}
+
+console.log(employee1);
+console.log(employee2);
+console.log(employee3);
+console.log(employee4);
+
+company.employees.push(employee4);
+console.log(company);
 
 //PROBLEM #4
 
