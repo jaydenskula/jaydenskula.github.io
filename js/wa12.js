@@ -1,5 +1,4 @@
 // PROBLEM #1
-// Employee 1
 let employee1 = 
 {
     "first_name": "Sam",
@@ -9,7 +8,6 @@ let employee1 =
     "raise_eligible": true
 }
   
-// Employee 2
 let employee2 = 
 {
     "first_name": "Mary",
@@ -19,7 +17,6 @@ let employee2 =
     "raise_eligible": true
 };
   
-// Employee 3
 let employee3 = 
 {
     "first_name": "Bill",
@@ -44,6 +41,7 @@ let company =
 
 console.log(company);
 
+
 //PROBLEM #3
 let employee4 =
 {
@@ -62,6 +60,7 @@ console.log(employee4);
 company.employees.push(employee4);
 console.log(company);
 
+
 //PROBLEM #4
 let salary1 = employee1.salary;
 // console.log(salary1);
@@ -74,6 +73,7 @@ let salary4 = employee4.salary;
 
 totalSalary = salary1 + salary2 + salary3 + salary4;
 console.log("Total Salary:" + totalSalary);
+
 
 //PROBLEM #5
     let length = (Object.keys(company.employees).length);
@@ -89,5 +89,6 @@ function updateSalary()
 }
 
 updateSalary();
+
 
 //PROBLEM #6
