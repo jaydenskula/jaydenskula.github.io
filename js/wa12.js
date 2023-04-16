@@ -63,6 +63,20 @@ company.employees.push(employee4);
 console.log(company);
 
 //PROBLEM #4
+let salary1 = employee1.salary;
+// console.log(salary1);
+
+let salary2 = employee2.salary;
+// console.log(salary2);
+
+let salary3 = employee3.salary;
+// console.log(salary3);
+
+let salary4 = employee4.salary;
+// console.log(salary4);
+
+totalSalary = salary1 + salary2 + salary3 + salary4;
+console.log("Total Salary:" + totalSalary);
 
 //PROBLEM #5
 
