@@ -89,6 +89,7 @@ function updateSalary()
 }
 
 updateSalary();
+console.log(company);
 
 
 //PROBLEM #6
