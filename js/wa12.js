@@ -52,11 +52,6 @@ let employee4 =
     "raise_eligible": false
 }
 
-console.log(employee1);
-console.log(employee2);
-console.log(employee3);
-console.log(employee4);
-
 company.employees.push(employee4);
 console.log(company);
 
@@ -76,20 +71,69 @@ console.log("Total Salary:" + totalSalary);
 
 
 //PROBLEM #5
-    let length = (Object.keys(company.employees).length);
-    console.log(length);
-
 function updateSalary()
 {
-
-    for(let i = 0; i < length; i++)
+    for(let i=0; i < company.employees.length; i++)
     {
-        console.log("Hello");
+        if(company.employees[i].raise_eligible == true)
+        {
+            company.employees[i].salary = company.employees[i].salary + (company.employees[i].salary * 0.1);
+            company.employees[i].raise_eligible = false;
+        }
     }
+
+    console.log(company);
 }
 
-updateSalary();
-console.log(company);
+updateSalary(company);
+
 
 
 //PROBLEM #6
+employee1 = 
+{
+    "first_name": "Sam",
+    "department": "Tech",
+    "designation": "Manager",
+    "salary": 44000,
+    "raise_eligible": false,
+    "wfh" : true
+}
+  
+employee2 = 
+{
+    "first_name": "Mary",
+    "department": "Finance",
+    "designation": "Trainee",
+    "salary": 20350,
+    "raise_eligible": false,
+    "wfh" : false
+};
+  
+employee3 = 
+{
+    "first_name": "Bill",
+    "department": "HR",
+    "designation": "Executive",
+    "salary": 21200,
+    "raise_eligible": false,
+    "wfh" : false
+};
+
+employee4 =
+{
+    "first_name": "Anna",
+    "department": "Tech",
+    "designation": "Executive",
+    "salary": 25600,
+    "raise_eligible": false,
+    "wfh" : true
+}
+
+company =
+{
+    "companyName": "Tech Stars",
+    "website": "www.techstars.site",
+    "employees": [employee1, employee2, employee3, employee4]
+}
+console.log(company);
