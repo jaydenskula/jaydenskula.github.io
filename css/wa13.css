@@ -1,0 +1,38 @@
+body
+{
+    max-width: 70%;
+}
+
+.minus-button
+{
+    background-color: rgb(197, 197, 223);
+    width: 100px;
+    position: relative;
+}
+
+.plus-button
+{
+    background-color: rgb(197, 197, 223);
+    width: 100px;
+    position: relative;
+}
+
+.random-button
+{
+    background-color: rgb(197, 197, 223);
+    width: 100px;
+    position: relative;
+}
+
+.reset-button
+{
+    background-color: rgb(197, 197, 223);
+    width: 100px;
+    position: relative;
+}
+.submit-button
+{
+    background-color: rgb(197, 197, 223);
+    width: 100px;
+    position: relative;
+}
