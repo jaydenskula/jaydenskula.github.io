@@ -6,10 +6,10 @@ var containerHeight = document.body.clientHeight;
 //     console.log('test');
 // }
 
-// function submit() 
-// {
-//     alert('Your volume is now: ' + output.textContent);
-// }
+function submit() 
+{
+    alert('Your volume is now: ' + output.textContent);
+}
 
 function reset() 
 {
@@ -111,8 +111,8 @@ resetButton.addEventListener('click', reset);
 const randomButton = document.querySelector('.random-button');
 randomButton.addEventListener('click', random);
 
-// const submitButton = document.querySelector('.submit-button');
-// submitButton.addEventListener('click', submit);
+const submitButton = document.querySelector('.submit-button');
+submitButton.addEventListener('click', submit);
 
 
 
