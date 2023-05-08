@@ -1,10 +1,11 @@
 body
 {
     font-family: 'Yu Gothic';
-    max-width: 1000px;
-    margin: 0 auto;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
     text-align: right;
     color: rgb(65, 65, 65);
+    background-color: snow;
 }
 
 .header
@@ -32,12 +33,31 @@ form, p
 
 h1
 {
-    font-size: 35px;
+    font-size: 37px;
     text-align: center;
+    font-family: 'Garamond';
+    margin-bottom: 1em;
 }
 
 button, #convertButton
 {
+    font-family: 'Century Gothic';
+    background-color:rgb(238, 220, 208);
+    border: 1px solid rgb(65, 65, 65);
+    height: 25px;
+}
+
+#initialCurrency, #finalCurrency, #amount
+{
+    font-family: 'Century Gothic';
+    height: 25px;
     background-color: snow;
     border: 1px solid rgb(65, 65, 65);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+span
+{
+    font-family: 'Century Gothic';
 }
