@@ -191,8 +191,8 @@ function getCurrencies() {
 function displayCurrency(data, initial, final, amount) {
   const calculated = amount * data.conversion_rates[final];
   document.getElementById("result").setAttribute("style", "display:block");
-  document.getElementById("txt-initialCurrency").innerText = amount + " " + initial + " = ";
-  document.getElementById("txt-finalCurrency").innerText = calculated + " " + final;
+  document.getElementById("initialCurrencyValue").innerText = amount + " " + initial + " = ";
+  document.getElementById("finalCurrencyValue").innerText = calculated + " " + final;
 }
 
 function myFunction() {
