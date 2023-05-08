@@ -194,3 +194,8 @@ function displayCurrency(data, initial, final, amount) {
   document.getElementById("txt-initialCurrency").innerText = amount + " " + initial + " = ";
   document.getElementById("txt-finalCurrency").innerText = calculated + " " + final;
 }
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
