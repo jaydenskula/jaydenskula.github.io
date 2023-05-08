@@ -2,7 +2,7 @@
 ## Projects
 - [HTML](https://jaydenskula.github.io/html-midterm/page5.html)
 - [CSS](https://jaydenskula.github.io)
-- JS
+- [JS](https://jaydenskula.github.io/js-project/js-final.html)
 ## In-Class Assignments
 - [ICA1](https://jaydenskula.github.io/ica/ica1.pdf)
 - [ICA2](https://jaydenskula.github.io/ica/ica2.pdf)
