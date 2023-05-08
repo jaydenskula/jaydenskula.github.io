@@ -85,7 +85,6 @@ const currencyList = {
     LKR: "Sri Lanka Rupee",
     LRD: "Liberian Dollar",
     LSL: "Lesotho Loti",
-    LYD: "Libyan Dinar",
     MAD: "Moroccan Dirham",
     MDL: "Moldovan Leu",
     MGA: "Malagasy Ariary",
@@ -129,9 +128,7 @@ const currencyList = {
     SLE: "Sierra Leonean Leone",
     SOS: "Somali Shilling",
     SRD: "Surinamese Dollar",
-    SSP: "South Sudanese Pound",
     STN: "São Tomé and Príncipe Dobra",
-    SYP: "Syrian Pound",
     SZL: "Eswatini Lilangeni",
     THB: "Thai Baht",
     TJS: "Tajikistani Somoni",
@@ -147,7 +144,6 @@ const currencyList = {
     UGX: "Ugandan Shilling",
     UYU: "Uruguayan Peso",
     UZS: "Uzbekistani So'm",
-    VES: "Venezuelan Bolívar Soberano",
     VND: "Vietnamese Đồng",
     VUV: "Vanuatu Vatu",
     WST: "Samoan Tālā",
@@ -156,10 +152,8 @@ const currencyList = {
     XDR: "Special Drawing Rights",
     XOF: "West African CFA franc",
     XPF: "CFP Franc",
-    YER: "Yemeni Rial",
     ZAR: "South African Rand",
     ZMW: "Zambian Kwacha",
-    ZWL: "Zimbabwean Dollar",
 }
 
 const initialCurrency = document.getElementById("initialCurrency");
