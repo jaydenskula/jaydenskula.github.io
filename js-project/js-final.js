@@ -60,112 +60,112 @@ const currencyList = {
     HRK: "Croatian Kuna",
     HTG: "Haitian Gourde",
     HUF: "Hungarian Forint",
-    IDR: "",
-    ILS: "",
-    IMP: "",
-    INR: "",
-    IQD: "",
-    IRR: "",
-    ISK: "",
-    JEP: "",
-    JMD: "",
-    JOD: "",
-    JPY: "",
-    KES: "",
-    KGS: "",
-    KHR: "",
-    KID: "",
-    KMF: "",
-    KRW: "",
-    KWD: "",
-    KYD: "",
-    KZT: "",
-    LAK: "",
-    LBP: "",
-    LKR: "",
-    LRD: "",
-    LSL: "",
-    LYD: "",
-    MAD: "",
-    MDL: "",
-    MGA: "",
-    MKD: "",
-    MMK: "",
-    MNT: "",
-    MOP: "",
-    MRU: "",
-    MUR: "",
-    MVR: "", 
-    MWK: "",
-    MXN: "",
-    MYR: "",
-    MZN: "",
-    NAD: "",
-    NGN: "",
-    NIO: "",
-    NOK: "",
-    NPR: "",
-    NZD: "",
-    OMR: "",
-    PAB: "",
-    PEN: "",
-    PGK: "",
-    PHP: "",
-    PKR: "",
-    PLN: "",
-    PYG: "",
-    QAR: "",
-    RON: "",
-    RSD: "",
-    RUB: "",
-    RWF: "",
-    SAR: "",
-    SBD: "",
-    SCR: "",
-    SDG: "",
-    SEK: "",
-    SGD: "",
-    SHP: "",
-    SLE: "",
-    SOS: "",
-    SRD: "",
-    SSP: "",
-    STN: "",
-    SYP: "",
-    SZL: "",
-    THB: "",
-    TJS: "",
-    TMT: "",
-    TND: "",
-    TOP: "",
-    TRY: "",
-    TTD: "",
-    TVD: "",
-    TWD: "",
-    TZS: "",
-    UAH: "",
-    UGX: "",
-    UYU: "",
-    UZS: "",
-    VES: "",
-    VND: "",
-    VUV: "",
-    WST: "",
-    XAF: "",
-    XCD: "",
-    XDR: "",
-    XOR: "",
-    XPF: "",
-    YER: "",
-    ZAR: "",
-    ZMW: "",
-    ZWL: "",
+    IDR: "Indonesian Rupiah",
+    ILS: "Israeli New Shekel",
+    IMP: "Manx Pound",
+    INR: "Indian Rupee",
+    IQD: "Iraqi Dinar",
+    IRR: "Iranian Rial",
+    ISK: "Icelandic Króna",
+    JEP: "Jersey Pound",
+    JMD: "Jamaican Dollar",
+    JOD: "Jordanian Dinar",
+    JPY: "Japanese Yen",
+    KES: "Kenyan Shilling",
+    KGS: "Kyrgyzstani Som",
+    KHR: "Cambodian Riel",
+    KID: "Kiribati Dollar",
+    KMF: "Comorian Franc",
+    KRW: "South Korean Won",
+    KWD: "Kuwaiti Dinar",
+    KYD: "Cayman Islands Dollar",
+    KZT: "Kazakhstani Tenge",
+    LAK: "Lao Kip",
+    LBP: "Lebanese Pound",
+    LKR: "Sri Lanka Rupee",
+    LRD: "Liberian Dollar",
+    LSL: "Lesotho Loti",
+    LYD: "Libyan Dinar",
+    MAD: "Moroccan Dirham",
+    MDL: "Moldovan Leu",
+    MGA: "Malagasy Ariary",
+    MKD: "Macedonian Denar",
+    MMK: "Burmese Kyat",
+    MNT: "Mongolian Tögrög",
+    MOP: "Macanese Pataca",
+    MRU: "Mauritanian Ouguiya",
+    MUR: "Mauritian Rupee",
+    MVR: "Maldivian Rufiyaa", 
+    MWK: "Malawian Kwacha",
+    MXN: "Mexican Peso",
+    MYR: "Malaysian Ringgit",
+    MZN: "Mozambican Metical",
+    NAD: "Namibian Dollar",
+    NGN: "Nigerian Naira",
+    NIO: "Nicaraguan Córdoba",
+    NOK: "Norwegian Krone",
+    NPR: "Nepalese Rupee",
+    NZD: "New Zealand Dollar",
+    OMR: "Omani Rial",
+    PAB: "Panamanian Balboa",
+    PEN: "Peruvian Sol",
+    PGK: "Papua New Guinean Kina",
+    PHP: "Philippine Peso",
+    PKR: "Pakistani Rupee",
+    PLN: "Polish Złoty",
+    PYG: "Paraguayan Guaraní",
+    QAR: "Qatari Riyal",
+    RON: "Romanian Leu",
+    RSD: "Serbian Dinar",
+    RUB: "Russian Ruble",
+    RWF: "Rwandan Franc",
+    SAR: "Saudi Riyal",
+    SBD: "Solomon Islands Dollar",
+    SCR: "Seychellois Rupee",
+    SDG: "Sudanese Pound",
+    SEK: "Swedish Krona",
+    SGD: "Singapore Dollar",
+    SHP: "Saint Helena Pound",
+    SLE: "Sierra Leonean Leone",
+    SOS: "Somali Shilling",
+    SRD: "Surinamese Dollar",
+    SSP: "South Sudanese Pound",
+    STN: "São Tomé and Príncipe Dobra",
+    SYP: "Syrian Pound",
+    SZL: "Eswatini Lilangeni",
+    THB: "Thai Baht",
+    TJS: "Tajikistani Somoni",
+    TMT: "Turkmenistan Manat",
+    TND: "Tunisian Dinar",
+    TOP: "Tongan Paʻanga",
+    TRY: "Turkish Lira",
+    TTD: "Trinidad and Tobago Dollar",
+    TVD: "Tuvaluan Dollar",
+    TWD: "New Taiwan Dollar",
+    TZS: "Tanzanian Shilling",
+    UAH: "Ukrainian Hryvnia",
+    UGX: "Ugandan Shilling",
+    UYU: "Uruguayan Peso",
+    UZS: "Uzbekistani So'm",
+    VES: "Venezuelan Bolívar Soberano",
+    VND: "Vietnamese Đồng",
+    VUV: "Vanuatu Vatu",
+    WST: "Samoan Tālā",
+    XAF: "Central African CFA Franc",
+    XCD: "East Caribbean Dollar",
+    XDR: "Special Drawing Rights",
+    XOF: "West African CFA franc",
+    XPF: "CFP Franc",
+    YER: "Yemeni Rial",
+    ZAR: "South African Rand",
+    ZMW: "Zambian Kwacha",
+    ZWL: "Zimbabwean Dollar",
 }
 
-const primaryCurrency = document.getElementById("primary");
-const secondaryCurrency = document.getElementById("secondary");
-primaryCurrency.innerHTML = getOptions(currencies);
-secondaryCurrency.innerHTML = getOptions(currencies);
+const initialCurrency = document.getElementById("initialCurrency");
+const finalCurrency = document.getElementById("finalCurrency");
+initialCurrency.innerHTML = getOptions(currencyList);
+finalCurrency.innerHTML = getOptions(currencyList);
 
 function getOptions(data) {
   return Object.entries(data)
@@ -173,12 +173,13 @@ function getOptions(data) {
     .join("");
 }
 
-document.getElementById("btn-convert").addEventListener("click", fetchCurrencies);
+document.getElementById("convertButton").addEventListener("click", fetchCurrencies);
+
 function fetchCurrencies() {
-  const primary = primaryCurrency.value;
-  const secondary = secondaryCurrency.value;
+  const initial = initialCurrency.value;
+  const final = finalCurrency.value;
   const amount = document.getElementById("amount").value;
-  fetch("https://v6.exchangerate-api.com/v6/a2f267405bf3b15c57b4c205/latest/" + primary)
+  fetch("https://v6.exchangerate-api.com/v6/a2f267405bf3b15c57b4c205/latest/" + initial)
     .then((response) => {
       if (response.ok) {
         return response.json();
@@ -188,14 +189,14 @@ function fetchCurrencies() {
     })
     .then((data) => {
       console.log(data);
-      displayCurrency(data, primary, secondary, amount);
+      displayCurrency(data, initial, final, amount);
     })
     .catch((error) => console.error("FETCH ERROR:", error));
 }
 
-function displayCurrency(data, primary, secondary, amount) {
-  const calculated = amount * data.conversion_rates[secondary];
+function displayCurrency(data, initial, final, amount) {
+  const calculated = amount * data.conversion_rates[final];
   document.getElementById("result").setAttribute("style", "display:block");
-  document.getElementById("txt-primary").innerText = amount + " " + primary + " = ";
-  document.getElementById("txt-secondary").innerText = calculated + " " + secondary;
+  document.getElementById("txt-initialCurrency").innerText = amount + " " + initial + " = ";
+  document.getElementById("txt-finalCurrency").innerText = calculated + " " + final;
 }
