@@ -167,9 +167,9 @@ function getOptions(data) {
     .join("");
 }
 
-document.getElementById("convertButton").addEventListener("click", fetchCurrencies);
+document.getElementById("convertButton").addEventListener("click", getCurrencies);
 
-function fetchCurrencies() {
+function getCurrencies() {
   const initial = initialCurrency.value;
   const final = finalCurrency.value;
   const amount = document.getElementById("amount").value;
