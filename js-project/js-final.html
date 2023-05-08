@@ -9,21 +9,30 @@
     <script defer src="/js-project/js-final.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>JS Final Project</h1>
-        <h2>Currency Converter</h2>
-        <h3>Jayden Skuladottir</h3>
-
-        <form>
-            <input id="amount" type="number" value="1">
-            <select id="initialCurrency" class="input"></select>
-            <select id="finalCurrency" class="input"></select>
-            <input id="convertButton" type="button" value="Convert">
-        </form>
-        <p id="result" style="display:none;">
-            <span id="txt-initialCurrency"></span>
-            <span id="txt-finalCurrency"></span>
-        </p>
+    <div class="header">
+        <h2>JAVASCRIPT PROJECT</h2>
+        <h2 class="name">Jayden Skuladottir</h2>
     </div>
+    
+    <hr>
+
+    <h1>Currency Converter</h1>
+
+
+    <form>
+        <input id="amount" type="number" value="1">
+        <select id="initialCurrency" class="input"></select>
+        <select id="finalCurrency" class="input"></select>
+        <input id="convertButton" type="button" value="Convert">
+    </form>
+
+    <p id="result" style="display:none;">
+        <span id="txt-initialCurrency"></span>
+        <span id="txt-finalCurrency"></span>
+    </p>
+
+    <hr>
+
+    <button onclick="myFunction()">Dark/Light Mode</button>
 </body>
 </html>
