@@ -178,14 +178,14 @@ function fetchCurrencies() {
       if (response.ok) {
         return response.json();
       } else {
-        throw new Error("NETWORK RESPONSE ERROR");
+        throw new Error("Response Error");
       }
     })
     .then((data) => {
       console.log(data);
       displayCurrency(data, initial, final, amount);
     })
-    .catch((error) => console.error("FETCH ERROR:", error));
+    .catch((error) => console.error("Fetch Error:", error));
 }
 
 function displayCurrency(data, initial, final, amount) {
