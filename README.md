@@ -20,7 +20,7 @@
 - [ICA11](https://jaydenskula.github.io/ica/ica11.html)
 - [ICA12](https://jaydenskula.github.io/ica/ica12.html)
 - ICA13
-- ICA14
+- [ICA14](https://api.mapbox.com/styles/v1/jask5403/clgye06dj004y01pz5t9j4k5s.html?title=view&access_token=pk.eyJ1IjoiamFzazU0MDMiLCJhIjoiY2xndjU3eWw5MDBkazNocHM2OTV4NWJvdCJ9.KcjAUFWmzM6FwH95NeXg4A&zoomwheel=true&fresh=true#4.71/50.88/-2.44)
 - ICA15
 ## Weekly Assignments
 - [WA1](https://jaydenskula.github.io/wa/wa1.html)
